@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "diagram_type": "sequence",
+  "meta": {
+    "title": "Pulse Checkout: Async Idempotent Queue",
+    "output": "pulse-async.html",
+    "quality_profile": "showcase"
+  },
+  "participants": [
+    { "id": "checkout_api", "label": "Checkout Route", "type": "backend" },
+    { "id": "lock", "label": "Idempotency Lock", "type": "security" },
+    { "id": "queue", "label": "Checkout Queue", "type": "messagebus" },
+    { "id": "worker", "label": "Org Worker", "type": "backend" }
+  ],
+  "messages": [
+    { "id": "m_claim", "from": "checkout_api", "to": "lock", "y": 165, "label": "claimCheckoutLock(key)", "variant": "security" },
+    { "id": "m_enq", "from": "checkout_api", "to": "queue", "y": 230, "label": "enqueueCheckoutJob()", "variant": "emphasis" },
+    { "id": "m_202", "from": "queue", "to": "checkout_api", "y": 285, "label": "202 queued + jobId", "variant": "return" },
+    { "id": "m_consume", "from": "queue", "to": "worker", "y": 345, "label": "processOrgCheckout()" }
+  ]
+}

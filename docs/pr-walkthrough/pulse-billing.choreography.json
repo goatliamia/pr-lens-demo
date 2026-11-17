@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "kind": "story-choreography",
+  "id": "pulse-billing",
+  "title": "Pulse Billing PR #5：结账意图从同步直付转向异步幂等队列",
+  "locale": "zh-CN",
+  "preset": "classic",
+  "chrome": "story",
+  "badge": "Intent · PR #5",
+  "stills": [1.5, 7.5, 13.0, 18.0],
+  "views": [
+    {
+      "id": "sync",
+      "type": "architecture",
+      "input": "models/pulse-sync.architecture.json",
+      "callouts": {
+        "gateway": { "text": "阻塞扣款", "tone": "modified" },
+        "mailer": { "text": "已剥离", "tone": "removed" }
+      }
+    },
+    {
+      "id": "async_flow",
+      "type": "sequence",
+      "input": "models/pulse-async.sequence.json",
+      "callouts": {
+        "lock": { "text": "幂等锁", "tone": "accent" },
+        "queue": { "text": "202 异步队列", "tone": "added" }
+      }
+    },
+    {
+      "id": "ledger",
+      "type": "erd",
+      "input": "models/pulse-ledger.erd.json",
+      "callouts": {
+        "org_ledger": { "text": "组织台账", "tone": "added" }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "view": "sync",
+      "duration": 5.0,
+      "title": "基线契约：POST /checkout 阻塞等待扣款与发信",
+      "body": "改造前路由直接调用 Stripe 扣款与 SMTP 发信，调用方同步拿到 200 结果；任何下游抖动都拖垮结账响应。",
+      "trace": { "edges": ["c_post", "c_stripe"], "travel": 1.1 }
+    },
+    {
+      "view": "async_flow",
+      "duration": 5.5,
+      "title": "契约迁移：幂等锁校验后投递队列，立即返回 202 Queued",
+      "body": "Checkout Route 跨视图延续，在领取 Idempotency Lock 后入队并先返回 202，真实扣款延后由 Org Worker 执行。",
+      "transition": {
+        "from": "sync",
+        "shared": [{ "id": "checkout_api", "label": "Checkout Route", "subtitle": "202 async queued" }]
+      },
+      "enter": ["lock", "queue", "worker"],
+      "trace": { "edges": ["m_claim", "m_enq", "m_202"], "travel": 0.9 }
+    },
+    {
+      "view": "async_flow",
+      "duration": 5.5,
+      "title": "源码印证：锁占用或入队成功均返回 202 Queued",
+      "body": "左侧聚焦路由、幂等锁与异步队列三方协作，右侧对照 postCheckout() 真实返回结构。",
+      "focus": { "nodes": ["checkout_api", "lock", "queue"], "area": "left" },
+      "detail": {
+        "nodes": ["checkout_api", "lock", "queue"],
+        "title": "src/routes/checkout.ts · postCheckout()",
+        "note": "外部响应语义已改为排队受理，前端不能再假定立即可用",
+        "path": "inputs/pulse/checkout.ts",
+        "lines": [13, 19, 20, 23, 31, 32, 33],
+        "highlight": [19, 20, 32]
+      }
+    },
+    {
+      "view": "ledger",
+      "duration": 5.0,
+      "title": "计费边界重塑：从单用户转向组织级异步台账 Schema",
+      "body": "新增 checkout_jobs 与 org_ledger_entries 两张关系表，将幂等键与组织维度持久化为系统不变量。",
+      "focus": ["orgs", "checkout_jobs", "org_ledger"]
+    }
+  ]
+}

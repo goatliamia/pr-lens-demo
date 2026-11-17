@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-11-17T14:39:51.635Z",
+  "cases": [
+    {
+      "id": "arc-story-split",
+      "duration": 18,
+      "steps": 3,
+      "outputs": [
+        "images/arc-story-split-light.svg",
+        "images/arc-story-split-dark.svg"
+      ],
+      "stills": [
+        "stills/arc-story-split-still-1-light.svg",
+        "stills/arc-story-split-still-2-light.svg",
+        "stills/arc-story-split-still-3-light.svg",
+        "stills/arc-story-split-still-1-dark.svg",
+        "stills/arc-story-split-still-2-dark.svg",
+        "stills/arc-story-split-still-3-dark.svg"
+      ],
+      "stage": "stages/arc-story-split.stage.html",
+      "video": {
+        "path": "videos/arc-story-split.mp4",
+        "bytes": 4497268
+      }
+    },
+    {
+      "id": "pulse-billing",
+      "duration": 21,
+      "steps": 4,
+      "outputs": [
+        "images/pulse-billing-light.svg",
+        "images/pulse-billing-dark.svg"
+      ],
+      "stills": [
+        "stills/pulse-billing-still-1-light.svg",
+        "stills/pulse-billing-still-2-light.svg",
+        "stills/pulse-billing-still-3-light.svg",
+        "stills/pulse-billing-still-4-light.svg",
+        "stills/pulse-billing-still-1-dark.svg",
+        "stills/pulse-billing-still-2-dark.svg",
+        "stills/pulse-billing-still-3-dark.svg",
+        "stills/pulse-billing-still-4-dark.svg"
+      ],
+      "stage": "stages/pulse-billing.stage.html",
+      "video": {
+        "path": "videos/pulse-billing.mp4",
+        "bytes": 5656602
+      }
+    },
+    {
+      "id": "tokio-scheduler",
+      "duration": 11.5,
+      "steps": 2,
+      "outputs": [
+        "images/tokio-scheduler-light.svg",
+        "images/tokio-scheduler-dark.svg"
+      ],
+      "stills": [
+        "stills/tokio-scheduler-still-1-light.svg",
+        "stills/tokio-scheduler-still-2-light.svg",
+        "stills/tokio-scheduler-still-1-dark.svg",
+        "stills/tokio-scheduler-still-2-dark.svg"
+      ],
+      "stage": "stages/tokio-scheduler.stage.html",
+      "video": {
+        "path": "videos/tokio-scheduler.mp4",
+        "bytes": 1721591
+      }
+    },
+    {
+      "id": "vue-complexity",
+      "duration": 13,
+      "steps": 2,
+      "outputs": [
+        "images/vue-complexity-light.svg",
+        "images/vue-complexity-dark.svg"
+      ],
+      "stills": [
+        "stills/vue-complexity-still-1-light.svg",
+        "stills/vue-complexity-still-2-light.svg",
+        "stills/vue-complexity-still-1-dark.svg",
+        "stills/vue-complexity-still-2-dark.svg"
+      ],
+      "stage": "stages/vue-complexity.stage.html",
+      "video": {
+        "path": "videos/vue-complexity.mp4",
+        "bytes": 2844705
+      }
+    }
+  ]
+}
