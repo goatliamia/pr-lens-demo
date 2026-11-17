@@ -12,6 +12,8 @@ if (!archifyBin || !fs.existsSync(archifyBin)) {
 }
 
 const withVideo = process.argv.includes('--with-video');
+const engineHead = spawnSync('git', ['-C', path.resolve(path.dirname(archifyBin), '..', '..'), 'rev-parse', 'HEAD'], { encoding: 'utf8' });
+const engineRevision = engineHead.status === 0 ? engineHead.stdout.trim() : null;
 const specsDir = root;
 const imagesDir = path.join(root, 'images');
 const stillsDir = path.join(root, 'stills');
@@ -38,8 +40,9 @@ function runArchify(args) {
 }
 
 const existingManifestPath = path.join(root, 'showcase-manifest.json');
+const existingManifest = fs.existsSync(existingManifestPath) ? JSON.parse(fs.readFileSync(existingManifestPath, 'utf8')) : {};
 const existingById = new Map(
-  (fs.existsSync(existingManifestPath) ? JSON.parse(fs.readFileSync(existingManifestPath, 'utf8')).cases || [] : [])
+  (existingManifest.cases || [])
     .map((entry) => [entry.id, entry]),
 );
 
@@ -64,11 +67,11 @@ for (const file of specs) {
   let video = null;
   if (withVideo) {
     const builtVideo = runArchify(['story', 'video', specPath, path.join(videosDir, `${id}.mp4`), '--fps', '30', '--theme', 'light', '--repo-root', root, '--json']);
-    video = { path: path.relative(root, builtVideo.output).replace(/\\/g, '/'), bytes: builtVideo.bytes };
+    video = { path: path.relative(root, builtVideo.output).replace(/\\/g, '/'), bytes: builtVideo.bytes, engineRevision };
   } else {
     const mp4Path = path.join(videosDir, `${id}.mp4`);
     if (fs.existsSync(mp4Path)) {
-      video = { path: path.relative(root, mp4Path).replace(/\\/g, '/'), bytes: fs.statSync(mp4Path).size };
+      video = { path: path.relative(root, mp4Path).replace(/\\/g, '/'), bytes: fs.statSync(mp4Path).size, engineRevision: existingById.get(id)?.video?.engineRevision || existingManifest.engineRevision || null };
     } else if (existingById.get(id)?.video) {
       video = existingById.get(id).video;
     }
@@ -85,4 +88,4 @@ for (const file of specs) {
   console.log(`[ok] ${id}: ${svg.steps} steps (${svg.duration}s) -> ${svg.outputs.length} SVGs, ${svg.stills.length} stills, stage HTML${video ? `, MP4 (${(video.bytes / 1048576).toFixed(2)} MB)` : ''}`);
 }
 
-fs.writeFileSync(existingManifestPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), cases: summary }, null, 2)}\n`);
+fs.writeFileSync(existingManifestPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), engineRevision, cases: summary }, null, 2)}\n`);

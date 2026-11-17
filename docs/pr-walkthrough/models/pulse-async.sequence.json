@@ -7,6 +7,7 @@
     "quality_profile": "showcase"
   },
   "participants": [
+    { "id": "client", "label": "CheckoutSheet", "type": "frontend" },
     { "id": "checkout_api", "label": "Checkout Route", "type": "backend" },
     { "id": "lock", "label": "Idempotency Lock", "type": "security" },
     { "id": "queue", "label": "Checkout Queue", "type": "messagebus" },
@@ -15,7 +16,8 @@
   "messages": [
     { "id": "m_claim", "from": "checkout_api", "to": "lock", "y": 165, "label": "claimCheckoutLock(key)", "variant": "security" },
     { "id": "m_enq", "from": "checkout_api", "to": "queue", "y": 230, "label": "enqueueCheckoutJob()", "variant": "emphasis" },
-    { "id": "m_202", "from": "queue", "to": "checkout_api", "y": 285, "label": "202 queued + jobId", "variant": "return" },
-    { "id": "m_consume", "from": "queue", "to": "worker", "y": 345, "label": "processOrgCheckout()" }
+    { "id": "m_job", "from": "queue", "to": "checkout_api", "y": 285, "label": "jobId（示例桩返回）", "variant": "return" },
+    { "id": "m_202", "from": "checkout_api", "to": "client", "y": 345, "label": "202 queued + jobId", "variant": "return" },
+    { "id": "m_consume", "from": "queue", "to": "worker", "y": 415, "label": "计划消费路径 · 尚未接入", "variant": "dashed" }
   ]
 }

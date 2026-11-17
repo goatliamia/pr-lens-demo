@@ -7,15 +7,26 @@
   "preset": "classic",
   "chrome": "story",
   "badge": "Intent · PR #5",
-  "stills": [1.5, 7.5, 13.0, 18.0],
+  "stills": [
+    1.5,
+    7.5,
+    13,
+    18
+  ],
   "views": [
     {
       "id": "sync",
       "type": "architecture",
       "input": "models/pulse-sync.architecture.json",
       "callouts": {
-        "gateway": { "text": "阻塞扣款", "tone": "modified" },
-        "mailer": { "text": "已剥离", "tone": "removed" }
+        "gateway": {
+          "text": "阻塞扣款",
+          "tone": "modified"
+        },
+        "mailer": {
+          "text": "已剥离",
+          "tone": "removed"
+        }
       }
     },
     {
@@ -23,8 +34,14 @@
       "type": "sequence",
       "input": "models/pulse-async.sequence.json",
       "callouts": {
-        "lock": { "text": "幂等锁", "tone": "accent" },
-        "queue": { "text": "202 异步队列", "tone": "added" }
+        "lock": {
+          "text": "幂等锁",
+          "tone": "accent"
+        },
+        "queue": {
+          "text": "新增入队接口 · 示例桩",
+          "tone": "added"
+        }
       }
     },
     {
@@ -32,51 +49,103 @@
       "type": "erd",
       "input": "models/pulse-ledger.erd.json",
       "callouts": {
-        "org_ledger": { "text": "组织台账", "tone": "added" }
+        "invoices": {
+          "text": "归属迁移 · 唯一幂等键",
+          "tone": "modified"
+        }
       }
     }
   ],
   "steps": [
     {
       "view": "sync",
-      "duration": 5.0,
+      "duration": 5,
       "title": "基线契约：POST /checkout 阻塞等待扣款与发信",
-      "body": "改造前路由直接调用 Stripe 扣款与 SMTP 发信，调用方同步拿到 200 结果；任何下游抖动都拖垮结账响应。",
-      "trace": { "edges": ["c_post", "c_stripe"], "travel": 1.1 }
+      "body": "基线路由等待 Stripe 扣款与 SMTP 发信后返回 200；响应时间受两段串联调用的耗时影响。",
+      "trace": {
+        "edges": [
+          "c_post",
+          "c_stripe"
+        ],
+        "travel": 1.1
+      }
     },
     {
       "view": "async_flow",
       "duration": 5.5,
       "title": "契约迁移：幂等锁校验后投递队列，立即返回 202 Queued",
-      "body": "Checkout Route 跨视图延续，在领取 Idempotency Lock 后入队并先返回 202，真实扣款延后由 Org Worker 执行。",
+      "body": "路由领取幂等锁后返回 202 和 jobId；独立 Worker 展示扣款调用。当前入队函数仅返回示例 ID，尚未接入实际队列。",
       "transition": {
         "from": "sync",
-        "shared": [{ "id": "checkout_api", "label": "Checkout Route", "subtitle": "202 async queued" }]
+        "shared": [
+          {
+            "id": "checkout_api",
+            "label": "Checkout Route",
+            "subtitle": "202 async queued"
+          }
+        ]
       },
-      "enter": ["lock", "queue", "worker"],
-      "trace": { "edges": ["m_claim", "m_enq", "m_202"], "travel": 0.9 }
+      "enter": [
+        "lock",
+        "queue",
+        "worker"
+      ],
+      "trace": {
+        "edges": [
+          "m_claim",
+          "m_enq",
+          "m_202"
+        ],
+        "travel": 0.9
+      }
     },
     {
       "view": "async_flow",
       "duration": 5.5,
       "title": "源码印证：锁占用或入队成功均返回 202 Queued",
       "body": "左侧聚焦路由、幂等锁与异步队列三方协作，右侧对照 postCheckout() 真实返回结构。",
-      "focus": { "nodes": ["checkout_api", "lock", "queue"], "area": "left" },
+      "focus": {
+        "nodes": [
+          "checkout_api",
+          "lock",
+          "queue"
+        ],
+        "area": "left"
+      },
       "detail": {
-        "nodes": ["checkout_api", "lock", "queue"],
+        "nodes": [
+          "checkout_api",
+          "lock",
+          "queue"
+        ],
         "title": "src/routes/checkout.ts · postCheckout()",
         "note": "外部响应语义已改为排队受理，前端不能再假定立即可用",
         "path": "inputs/pulse/checkout.ts",
-        "lines": [13, 19, 20, 23, 31, 32, 33],
-        "highlight": [19, 20, 32]
+        "lines": [
+          13,
+          19,
+          20,
+          23,
+          31,
+          32,
+          33
+        ],
+        "highlight": [
+          19,
+          20,
+          32
+        ]
       }
     },
     {
       "view": "ledger",
-      "duration": 5.0,
-      "title": "计费边界重塑：从单用户转向组织级异步台账 Schema",
-      "body": "新增 checkout_jobs 与 org_ledger_entries 两张关系表，将幂等键与组织维度持久化为系统不变量。",
-      "focus": ["orgs", "checkout_jobs", "org_ledger"]
+      "duration": 5,
+      "title": "计费归属迁移：invoices 从用户转向组织",
+      "body": "invoices 新增 org_id 与幂等键唯一索引，amount_cents 改为 bigint；这是 Schema 约束变化，不代表已验证的持久化流程。",
+      "focus": [
+        "orgs",
+        "invoices"
+      ]
     }
   ]
 }

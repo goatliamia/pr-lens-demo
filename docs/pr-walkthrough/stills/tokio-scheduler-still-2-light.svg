@@ -136,303 +136,303 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
 [data-native-key] [data-legend]{display:none}
 [data-story-node-badge] text{font-size:10.5px!important}
 [data-story-metric]{visibility:visible}
-[data-native-key="native-queues"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-queues"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-queues"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
-[data-native-key="native-queues"] :is(svg .archify-drilldown-mark-disc){fill:#23a37b;stroke:#5eb29f;stroke-width:1}
-[data-native-key="native-queues"] :is(svg .archify-drilldown-mark-arrow){stroke:#ffffff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-queues"] :is(.c-grid){stroke:#e9edf2;fill:none}
-[data-native-key="native-queues"] :is(.c-mask){fill:#ffffff;stroke:none}
-[data-native-key="native-queues"] :is(.c-lane-rule){stroke:#cbd5e1;fill:none;opacity:0.7}
-[data-native-key="native-queues"] :is(.c-lane-wash){fill:rgba(248, 250, 252, 0.65);stroke:none}
-[data-native-key="native-queues"] :is(.c-frontend){fill:rgba(34, 211, 238, 0.15);stroke:#0891b2}
-[data-native-key="native-queues"] :is(.c-backend){fill:rgba(52, 211, 153, 0.18);stroke:#059669}
-[data-native-key="native-queues"] :is(.c-database){fill:rgba(167, 139, 250, 0.2);stroke:#7c3aed}
-[data-native-key="native-queues"] :is(.c-cloud){fill:rgba(251, 191, 36, 0.18);stroke:#d97706}
-[data-native-key="native-queues"] :is(.c-security){fill:rgba(251, 113, 133, 0.15);stroke:#e11d48}
-[data-native-key="native-queues"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.15);stroke:#ea580c}
-[data-native-key="native-queues"] :is(.c-external){fill:rgba(148, 163, 184, 0.18);stroke:#64748b}
-[data-native-key="native-queues"] :is(.t-primary){fill:#111827}
-[data-native-key="native-queues"] :is(.t-muted){fill:#5b6474}
-[data-native-key="native-queues"] :is(.t-dim){fill:#9aa3b2}
-[data-native-key="native-queues"] :is(.t-frontend){fill:#0891b2}
-[data-native-key="native-queues"] :is(.t-backend){fill:#059669}
-[data-native-key="native-queues"] :is(.t-database){fill:#7c3aed}
-[data-native-key="native-queues"] :is(.t-cloud){fill:#d97706}
-[data-native-key="native-queues"] :is(.t-security){fill:#e11d48}
-[data-native-key="native-queues"] :is(.t-messagebus){fill:#ea580c}
-[data-native-key="native-queues"] :is(.t-external){fill:#64748b}
-[data-native-key="native-queues"] :is(.t-edge-default){fill:#5b6474}
-[data-native-key="native-queues"] :is(.t-edge-emphasis){fill:#059669}
-[data-native-key="native-queues"] :is(.t-edge-security){fill:#e11d48}
-[data-native-key="native-queues"] :is(.t-edge-dashed){fill:#7c3aed}
-[data-native-key="native-queues"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
-[data-native-key="native-queues"] :is(svg[data-preset="classic"][data-theme="light"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 1px 1px rgba(17, 24, 39, 0.05)) drop-shadow(0 6px 12px rgba(17, 24, 39, 0.06))}
-[data-native-key="native-queues"] :is(svg[data-preset="classic"][data-theme="light"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-queues"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-wash){fill:rgba(17, 24, 39, 0.026)}
-[data-native-key="native-queues"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-rule){stroke:#e5e7eb;opacity:1}
-[data-native-key="native-queues"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
-[data-native-key="native-queues"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
-[data-native-key="native-queues"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
-[data-native-key="native-queues"] :is(svg .s-frontend){color:#0891b2}
-[data-native-key="native-queues"] :is(svg .s-backend){color:#059669}
-[data-native-key="native-queues"] :is(svg .s-database){color:#7c3aed}
-[data-native-key="native-queues"] :is(svg .s-cloud){color:#d97706}
-[data-native-key="native-queues"] :is(svg .s-security){color:#e11d48}
-[data-native-key="native-queues"] :is(svg .s-messagebus){color:#ea580c}
-[data-native-key="native-queues"] :is(svg .s-external){color:#64748b}
-[data-native-key="native-queues"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
-[data-native-key="native-queues"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
-[data-native-key="native-queues"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-queues"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
-[data-native-key="native-queues"] :is(.a-default){stroke:#64748b;fill:none}
-[data-native-key="native-queues"] :is(.a-emphasis){stroke:#059669;fill:none}
-[data-native-key="native-queues"] :is(.a-security){stroke:#e11d48;fill:none;stroke-dasharray:5,5}
-[data-native-key="native-queues"] :is(.a-dashed){stroke:#7c3aed;fill:none;stroke-dasharray:4,4}
-[data-native-key="native-queues"] :is(.m-default){fill:#64748b}
-[data-native-key="native-queues"] :is(.m-emphasis){fill:#059669}
-[data-native-key="native-queues"] :is(.m-security){fill:#e11d48}
-[data-native-key="native-queues"] :is(.m-dashed){fill:#7c3aed}
-[data-native-key="native-queues"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
-[data-native-key="native-queues"] :is(svg [data-legend-count-badge] rect){fill:#ffffff;stroke:#e5e7eb;stroke-width:1;vector-effect:non-scaling-stroke}
-[data-native-key="native-queues"] :is(svg [data-legend-count-badge] text){fill:#5b6474;font-size:8px;font-weight:700;text-anchor:middle}
-[data-native-key="native-queues"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#7c3aed;stroke-width:2.2;stroke-dasharray:3 2}
-[data-native-key="native-queues"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#7c3aed;stroke-width:1.8}
-[data-native-key="native-queues"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #7c3aed)}
-[data-native-key="native-queues"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-queues"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
-[data-native-key="native-queues"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #7c3aed)}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
-[data-native-key="native-queues"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
-[data-native-key="native-queues"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #7c3aed)}
-[data-native-key="native-queues"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #059669)}
-[data-native-key="native-queues"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(124, 58, 237, 0.72))}
-[data-native-key="native-queues"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(5, 150, 105, 0.72))}
-[data-native-key="native-queues"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
-[data-native-key="native-queues"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
-[data-native-key="native-queues"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
-[data-native-key="native-queues"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #059669)}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #7c3aed)}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
-[data-native-key="native-queues"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
-[data-native-key="native-queues"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-route-match]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #e11d48)}
-[data-native-key="native-queues"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #059669)}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #059669)}
-[data-native-key="native-queues"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #059669)}
-[data-native-key="native-queues"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(17, 24, 39, 0.18))}
-[data-native-key="native-queues"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #0891b2)}
-[data-native-key="native-queues"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
-[data-native-key="native-queues"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #0891b2)}
-[data-native-key="native-queues"] :is(.c-security-group){fill:transparent;stroke:#e11d48;stroke-dasharray:4,4}
-[data-native-key="native-queues"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#d97706;stroke-dasharray:8,4}
-[data-native-key="native-queues"] :is(.c-lane){fill:rgba(248, 250, 252, 0.65);stroke:#cbd5e1;stroke-dasharray:6,6}
-[data-native-key="native-queues"] :is(svg[data-theme="light"]){--bg:#f4f5f7;--grid:#e9edf2;--canvas-dot:#e2e7ec;--text:#111827;--text-muted:#5b6474;--text-dim:#9aa3b2;--text-faint:#6b7280;--panel:#ffffff;--panel-border:#e5e7eb;--lane-fill:rgba(248, 250, 252, 0.65);--lane-stroke:#cbd5e1;--arrow:#64748b;--arrow-emphasis:#059669;--edge-label:#5b6474;--mask:#ffffff;--frontend-fill:rgba(34, 211, 238, 0.15);--frontend-stroke:#0891b2;--backend-fill:rgba(52, 211, 153, 0.18);--backend-stroke:#059669;--database-fill:rgba(167, 139, 250, 0.2);--database-stroke:#7c3aed;--cloud-fill:rgba(251, 191, 36, 0.18);--cloud-stroke:#d97706;--security-fill:rgba(251, 113, 133, 0.15);--security-stroke:#e11d48;--messagebus-fill:rgba(251, 146, 60, 0.15);--messagebus-stroke:#ea580c;--external-fill:rgba(148, 163, 184, 0.18);--external-stroke:#64748b;--toolbar-bg:rgba(255, 255, 255, 0.92);--toolbar-border:#cbd5e1;--toolbar-text:#334155;--toolbar-hover:#ffffff;--toolbar-menu-bg:#ffffff;--reader-accent:#077f9c}
-[data-native-key="native-queues"] :is(svg[data-node-ui] [data-node-id] > rect:not(.c-mask)){stroke-width:1.25px}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-frontend){fill:#dff1f5;stroke:#4db0c8}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-backend){fill:#dff1ec;stroke:#4bb393}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-database){fill:#eee5fd;stroke:#a171f2}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-cloud){fill:#faeddf;stroke:#e49d4c}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-security){fill:#fbe2e7;stroke:#e95c7b}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-messagebus){fill:#fce9df;stroke:#f08750}
-[data-native-key="native-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-external){fill:#ebedf0;stroke:#8f9bab}
-[data-native-key="native-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-region){fill:rgba(217, 119, 6, 0.03);stroke:#d1ae85;stroke-dasharray:none}
-[data-native-key="native-queues"] :is(svg[data-node-ui] .c-security-group){stroke:#d86a88}
-[data-native-key="native-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-security-group){stroke-dasharray:4 3}
-[data-native-key="native-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-lane){stroke:#cbd5e1;stroke-dasharray:none}
-[data-native-key="native-queues"] :is(svg[data-node-ui] [data-graph-role="structural-frame-label-mask"]){rx:5px;fill:#fbf1e6;stroke:#f1cba0;stroke-width:.8px}
-[data-native-key="native-queues"] :is(svg[data-node-ui] [data-composition-frame-kind="security-group"] > [data-graph-role="structural-frame-label-mask"]){fill:#fcebef;stroke:#f4aebd}
-[data-native-key="native-queues"] :is(svg[data-node-ui] .phase-rule){opacity:.5;stroke-dasharray:none}
-[data-native-key="native-queues"] :is(svg[data-node-ui] .phase-chip){stroke:#cbd5e1;stroke-width:.75px}
-[data-native-key="native-queues"] :is(svg[data-node-ui] g[data-edge-from] > rect.c-mask){rx:7px;stroke:#cbd5e1;stroke-width:.75px}
-[data-native-key="native-queues"] :is(svg[data-node-ui][data-preset="blueprint"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:2px}
-[data-native-key="native-queues"] :is(svg[data-node-ui][data-preset="editorial"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:3px}
-[data-native-key="native-lifecycle"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-lifecycle"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-lifecycle"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
-[data-native-key="native-lifecycle"] :is(svg .archify-drilldown-mark-disc){fill:#23a37b;stroke:#5eb29f;stroke-width:1}
-[data-native-key="native-lifecycle"] :is(svg .archify-drilldown-mark-arrow){stroke:#ffffff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-lifecycle"] :is(.c-grid){stroke:#e9edf2;fill:none}
-[data-native-key="native-lifecycle"] :is(.c-mask){fill:#ffffff;stroke:none}
-[data-native-key="native-lifecycle"] :is(.c-lane-rule){stroke:#cbd5e1;fill:none;opacity:0.7}
-[data-native-key="native-lifecycle"] :is(.c-lane-wash){fill:rgba(248, 250, 252, 0.65);stroke:none}
-[data-native-key="native-lifecycle"] :is(.c-frontend){fill:rgba(34, 211, 238, 0.15);stroke:#0891b2}
-[data-native-key="native-lifecycle"] :is(.c-backend){fill:rgba(52, 211, 153, 0.18);stroke:#059669}
-[data-native-key="native-lifecycle"] :is(.c-database){fill:rgba(167, 139, 250, 0.2);stroke:#7c3aed}
-[data-native-key="native-lifecycle"] :is(.c-cloud){fill:rgba(251, 191, 36, 0.18);stroke:#d97706}
-[data-native-key="native-lifecycle"] :is(.c-security){fill:rgba(251, 113, 133, 0.15);stroke:#e11d48}
-[data-native-key="native-lifecycle"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.15);stroke:#ea580c}
-[data-native-key="native-lifecycle"] :is(.c-external){fill:rgba(148, 163, 184, 0.18);stroke:#64748b}
-[data-native-key="native-lifecycle"] :is(.t-primary){fill:#111827}
-[data-native-key="native-lifecycle"] :is(.t-muted){fill:#5b6474}
-[data-native-key="native-lifecycle"] :is(.t-dim){fill:#9aa3b2}
-[data-native-key="native-lifecycle"] :is(.t-frontend){fill:#0891b2}
-[data-native-key="native-lifecycle"] :is(.t-backend){fill:#059669}
-[data-native-key="native-lifecycle"] :is(.t-database){fill:#7c3aed}
-[data-native-key="native-lifecycle"] :is(.t-cloud){fill:#d97706}
-[data-native-key="native-lifecycle"] :is(.t-security){fill:#e11d48}
-[data-native-key="native-lifecycle"] :is(.t-messagebus){fill:#ea580c}
-[data-native-key="native-lifecycle"] :is(.t-external){fill:#64748b}
-[data-native-key="native-lifecycle"] :is(.t-edge-default){fill:#5b6474}
-[data-native-key="native-lifecycle"] :is(.t-edge-emphasis){fill:#059669}
-[data-native-key="native-lifecycle"] :is(.t-edge-security){fill:#e11d48}
-[data-native-key="native-lifecycle"] :is(.t-edge-dashed){fill:#7c3aed}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 1px 1px rgba(17, 24, 39, 0.05)) drop-shadow(0 6px 12px rgba(17, 24, 39, 0.06))}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-wash){fill:rgba(17, 24, 39, 0.026)}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-rule){stroke:#e5e7eb;opacity:1}
-[data-native-key="native-lifecycle"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
-[data-native-key="native-lifecycle"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
-[data-native-key="native-lifecycle"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
-[data-native-key="native-lifecycle"] :is(svg .s-frontend){color:#0891b2}
-[data-native-key="native-lifecycle"] :is(svg .s-backend){color:#059669}
-[data-native-key="native-lifecycle"] :is(svg .s-database){color:#7c3aed}
-[data-native-key="native-lifecycle"] :is(svg .s-cloud){color:#d97706}
-[data-native-key="native-lifecycle"] :is(svg .s-security){color:#e11d48}
-[data-native-key="native-lifecycle"] :is(svg .s-messagebus){color:#ea580c}
-[data-native-key="native-lifecycle"] :is(svg .s-external){color:#64748b}
-[data-native-key="native-lifecycle"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
-[data-native-key="native-lifecycle"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
-[data-native-key="native-lifecycle"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-lifecycle"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
-[data-native-key="native-lifecycle"] :is(.a-default){stroke:#64748b;fill:none}
-[data-native-key="native-lifecycle"] :is(.a-emphasis){stroke:#059669;fill:none}
-[data-native-key="native-lifecycle"] :is(.a-security){stroke:#e11d48;fill:none;stroke-dasharray:5,5}
-[data-native-key="native-lifecycle"] :is(.a-dashed){stroke:#7c3aed;fill:none;stroke-dasharray:4,4}
-[data-native-key="native-lifecycle"] :is(.m-default){fill:#64748b}
-[data-native-key="native-lifecycle"] :is(.m-emphasis){fill:#059669}
-[data-native-key="native-lifecycle"] :is(.m-security){fill:#e11d48}
-[data-native-key="native-lifecycle"] :is(.m-dashed){fill:#7c3aed}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-count-badge] rect){fill:#ffffff;stroke:#e5e7eb;stroke-width:1;vector-effect:non-scaling-stroke}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-count-badge] text){fill:#5b6474;font-size:8px;font-weight:700;text-anchor:middle}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#7c3aed;stroke-width:2.2;stroke-dasharray:3 2}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#7c3aed;stroke-width:1.8}
-[data-native-key="native-lifecycle"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #7c3aed)}
-[data-native-key="native-lifecycle"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-lifecycle"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
-[data-native-key="native-lifecycle"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #7c3aed)}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #7c3aed)}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #059669)}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(124, 58, 237, 0.72))}
-[data-native-key="native-lifecycle"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(5, 150, 105, 0.72))}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #059669)}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #7c3aed)}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
-[data-native-key="native-lifecycle"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
-[data-native-key="native-lifecycle"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-route-match]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #e11d48)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #059669)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #059669)}
-[data-native-key="native-lifecycle"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #059669)}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(17, 24, 39, 0.18))}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #0891b2)}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
-[data-native-key="native-lifecycle"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #0891b2)}
-[data-native-key="native-lifecycle"] :is(.c-security-group){fill:transparent;stroke:#e11d48;stroke-dasharray:4,4}
-[data-native-key="native-lifecycle"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#d97706;stroke-dasharray:8,4}
-[data-native-key="native-lifecycle"] :is(.c-lane){fill:rgba(248, 250, 252, 0.65);stroke:#cbd5e1;stroke-dasharray:6,6}
-[data-native-key="native-lifecycle"] :is(svg[data-theme="light"]){--bg:#f4f5f7;--grid:#e9edf2;--canvas-dot:#e2e7ec;--text:#111827;--text-muted:#5b6474;--text-dim:#9aa3b2;--text-faint:#6b7280;--panel:#ffffff;--panel-border:#e5e7eb;--lane-fill:rgba(248, 250, 252, 0.65);--lane-stroke:#cbd5e1;--arrow:#64748b;--arrow-emphasis:#059669;--edge-label:#5b6474;--mask:#ffffff;--frontend-fill:rgba(34, 211, 238, 0.15);--frontend-stroke:#0891b2;--backend-fill:rgba(52, 211, 153, 0.18);--backend-stroke:#059669;--database-fill:rgba(167, 139, 250, 0.2);--database-stroke:#7c3aed;--cloud-fill:rgba(251, 191, 36, 0.18);--cloud-stroke:#d97706;--security-fill:rgba(251, 113, 133, 0.15);--security-stroke:#e11d48;--messagebus-fill:rgba(251, 146, 60, 0.15);--messagebus-stroke:#ea580c;--external-fill:rgba(148, 163, 184, 0.18);--external-stroke:#64748b;--toolbar-bg:rgba(255, 255, 255, 0.92);--toolbar-border:#cbd5e1;--toolbar-text:#334155;--toolbar-hover:#ffffff;--toolbar-menu-bg:#ffffff;--reader-accent:#077f9c}
+[data-native-key="native-light-queues"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-light-queues"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-light-queues"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
+[data-native-key="native-light-queues"] :is(svg .archify-drilldown-mark-disc){fill:#23a37b;stroke:#5eb29f;stroke-width:1}
+[data-native-key="native-light-queues"] :is(svg .archify-drilldown-mark-arrow){stroke:#ffffff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-queues"] :is(.c-grid){stroke:#e9edf2;fill:none}
+[data-native-key="native-light-queues"] :is(.c-mask){fill:#ffffff;stroke:none}
+[data-native-key="native-light-queues"] :is(.c-lane-rule){stroke:#cbd5e1;fill:none;opacity:0.7}
+[data-native-key="native-light-queues"] :is(.c-lane-wash){fill:rgba(248, 250, 252, 0.65);stroke:none}
+[data-native-key="native-light-queues"] :is(.c-frontend){fill:rgba(34, 211, 238, 0.15);stroke:#0891b2}
+[data-native-key="native-light-queues"] :is(.c-backend){fill:rgba(52, 211, 153, 0.18);stroke:#059669}
+[data-native-key="native-light-queues"] :is(.c-database){fill:rgba(167, 139, 250, 0.2);stroke:#7c3aed}
+[data-native-key="native-light-queues"] :is(.c-cloud){fill:rgba(251, 191, 36, 0.18);stroke:#d97706}
+[data-native-key="native-light-queues"] :is(.c-security){fill:rgba(251, 113, 133, 0.15);stroke:#e11d48}
+[data-native-key="native-light-queues"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.15);stroke:#ea580c}
+[data-native-key="native-light-queues"] :is(.c-external){fill:rgba(148, 163, 184, 0.18);stroke:#64748b}
+[data-native-key="native-light-queues"] :is(.t-primary){fill:#111827}
+[data-native-key="native-light-queues"] :is(.t-muted){fill:#5b6474}
+[data-native-key="native-light-queues"] :is(.t-dim){fill:#9aa3b2}
+[data-native-key="native-light-queues"] :is(.t-frontend){fill:#0891b2}
+[data-native-key="native-light-queues"] :is(.t-backend){fill:#059669}
+[data-native-key="native-light-queues"] :is(.t-database){fill:#7c3aed}
+[data-native-key="native-light-queues"] :is(.t-cloud){fill:#d97706}
+[data-native-key="native-light-queues"] :is(.t-security){fill:#e11d48}
+[data-native-key="native-light-queues"] :is(.t-messagebus){fill:#ea580c}
+[data-native-key="native-light-queues"] :is(.t-external){fill:#64748b}
+[data-native-key="native-light-queues"] :is(.t-edge-default){fill:#5b6474}
+[data-native-key="native-light-queues"] :is(.t-edge-emphasis){fill:#059669}
+[data-native-key="native-light-queues"] :is(.t-edge-security){fill:#e11d48}
+[data-native-key="native-light-queues"] :is(.t-edge-dashed){fill:#7c3aed}
+[data-native-key="native-light-queues"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
+[data-native-key="native-light-queues"] :is(svg[data-preset="classic"][data-theme="light"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 1px 1px rgba(17, 24, 39, 0.05)) drop-shadow(0 6px 12px rgba(17, 24, 39, 0.06))}
+[data-native-key="native-light-queues"] :is(svg[data-preset="classic"][data-theme="light"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-queues"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-wash){fill:rgba(17, 24, 39, 0.026)}
+[data-native-key="native-light-queues"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-rule){stroke:#e5e7eb;opacity:1}
+[data-native-key="native-light-queues"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
+[data-native-key="native-light-queues"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
+[data-native-key="native-light-queues"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
+[data-native-key="native-light-queues"] :is(svg .s-frontend){color:#0891b2}
+[data-native-key="native-light-queues"] :is(svg .s-backend){color:#059669}
+[data-native-key="native-light-queues"] :is(svg .s-database){color:#7c3aed}
+[data-native-key="native-light-queues"] :is(svg .s-cloud){color:#d97706}
+[data-native-key="native-light-queues"] :is(svg .s-security){color:#e11d48}
+[data-native-key="native-light-queues"] :is(svg .s-messagebus){color:#ea580c}
+[data-native-key="native-light-queues"] :is(svg .s-external){color:#64748b}
+[data-native-key="native-light-queues"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
+[data-native-key="native-light-queues"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-queues"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-queues"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
+[data-native-key="native-light-queues"] :is(.a-default){stroke:#64748b;fill:none}
+[data-native-key="native-light-queues"] :is(.a-emphasis){stroke:#059669;fill:none}
+[data-native-key="native-light-queues"] :is(.a-security){stroke:#e11d48;fill:none;stroke-dasharray:5,5}
+[data-native-key="native-light-queues"] :is(.a-dashed){stroke:#7c3aed;fill:none;stroke-dasharray:4,4}
+[data-native-key="native-light-queues"] :is(.m-default){fill:#64748b}
+[data-native-key="native-light-queues"] :is(.m-emphasis){fill:#059669}
+[data-native-key="native-light-queues"] :is(.m-security){fill:#e11d48}
+[data-native-key="native-light-queues"] :is(.m-dashed){fill:#7c3aed}
+[data-native-key="native-light-queues"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-queues"] :is(svg [data-legend-count-badge] rect){fill:#ffffff;stroke:#e5e7eb;stroke-width:1;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-queues"] :is(svg [data-legend-count-badge] text){fill:#5b6474;font-size:8px;font-weight:700;text-anchor:middle}
+[data-native-key="native-light-queues"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#7c3aed;stroke-width:2.2;stroke-dasharray:3 2}
+[data-native-key="native-light-queues"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#7c3aed;stroke-width:1.8}
+[data-native-key="native-light-queues"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #7c3aed)}
+[data-native-key="native-light-queues"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-queues"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
+[data-native-key="native-light-queues"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #7c3aed)}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #7c3aed)}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #059669)}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(124, 58, 237, 0.72))}
+[data-native-key="native-light-queues"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(5, 150, 105, 0.72))}
+[data-native-key="native-light-queues"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #059669)}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #7c3aed)}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
+[data-native-key="native-light-queues"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
+[data-native-key="native-light-queues"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-route-match]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #e11d48)}
+[data-native-key="native-light-queues"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #059669)}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #059669)}
+[data-native-key="native-light-queues"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #059669)}
+[data-native-key="native-light-queues"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(17, 24, 39, 0.18))}
+[data-native-key="native-light-queues"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #0891b2)}
+[data-native-key="native-light-queues"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
+[data-native-key="native-light-queues"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #0891b2)}
+[data-native-key="native-light-queues"] :is(.c-security-group){fill:transparent;stroke:#e11d48;stroke-dasharray:4,4}
+[data-native-key="native-light-queues"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#d97706;stroke-dasharray:8,4}
+[data-native-key="native-light-queues"] :is(.c-lane){fill:rgba(248, 250, 252, 0.65);stroke:#cbd5e1;stroke-dasharray:6,6}
+[data-native-key="native-light-queues"] :is(svg[data-theme="light"]){--bg:#f4f5f7;--grid:#e9edf2;--canvas-dot:#e2e7ec;--text:#111827;--text-muted:#5b6474;--text-dim:#9aa3b2;--text-faint:#6b7280;--panel:#ffffff;--panel-border:#e5e7eb;--lane-fill:rgba(248, 250, 252, 0.65);--lane-stroke:#cbd5e1;--arrow:#64748b;--arrow-emphasis:#059669;--edge-label:#5b6474;--mask:#ffffff;--frontend-fill:rgba(34, 211, 238, 0.15);--frontend-stroke:#0891b2;--backend-fill:rgba(52, 211, 153, 0.18);--backend-stroke:#059669;--database-fill:rgba(167, 139, 250, 0.2);--database-stroke:#7c3aed;--cloud-fill:rgba(251, 191, 36, 0.18);--cloud-stroke:#d97706;--security-fill:rgba(251, 113, 133, 0.15);--security-stroke:#e11d48;--messagebus-fill:rgba(251, 146, 60, 0.15);--messagebus-stroke:#ea580c;--external-fill:rgba(148, 163, 184, 0.18);--external-stroke:#64748b;--toolbar-bg:rgba(255, 255, 255, 0.92);--toolbar-border:#cbd5e1;--toolbar-text:#334155;--toolbar-hover:#ffffff;--toolbar-menu-bg:#ffffff;--reader-accent:#077f9c}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] [data-node-id] > rect:not(.c-mask)){stroke-width:1.25px}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-frontend){fill:#dff1f5;stroke:#4db0c8}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-backend){fill:#dff1ec;stroke:#4bb393}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-database){fill:#eee5fd;stroke:#a171f2}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-cloud){fill:#faeddf;stroke:#e49d4c}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-security){fill:#fbe2e7;stroke:#e95c7b}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-messagebus){fill:#fce9df;stroke:#f08750}
+[data-native-key="native-light-queues"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-external){fill:#ebedf0;stroke:#8f9bab}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-region){fill:rgba(217, 119, 6, 0.03);stroke:#d1ae85;stroke-dasharray:none}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] .c-security-group){stroke:#d86a88}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-security-group){stroke-dasharray:4 3}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-lane){stroke:#cbd5e1;stroke-dasharray:none}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] [data-graph-role="structural-frame-label-mask"]){rx:5px;fill:#fbf1e6;stroke:#f1cba0;stroke-width:.8px}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] [data-composition-frame-kind="security-group"] > [data-graph-role="structural-frame-label-mask"]){fill:#fcebef;stroke:#f4aebd}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] .phase-rule){opacity:.5;stroke-dasharray:none}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] .phase-chip){stroke:#cbd5e1;stroke-width:.75px}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui] g[data-edge-from] > rect.c-mask){rx:7px;stroke:#cbd5e1;stroke-width:.75px}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui][data-preset="blueprint"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:2px}
+[data-native-key="native-light-queues"] :is(svg[data-node-ui][data-preset="editorial"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:3px}
+[data-native-key="native-light-lifecycle"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-light-lifecycle"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-light-lifecycle"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
+[data-native-key="native-light-lifecycle"] :is(svg .archify-drilldown-mark-disc){fill:#23a37b;stroke:#5eb29f;stroke-width:1}
+[data-native-key="native-light-lifecycle"] :is(svg .archify-drilldown-mark-arrow){stroke:#ffffff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-lifecycle"] :is(.c-grid){stroke:#e9edf2;fill:none}
+[data-native-key="native-light-lifecycle"] :is(.c-mask){fill:#ffffff;stroke:none}
+[data-native-key="native-light-lifecycle"] :is(.c-lane-rule){stroke:#cbd5e1;fill:none;opacity:0.7}
+[data-native-key="native-light-lifecycle"] :is(.c-lane-wash){fill:rgba(248, 250, 252, 0.65);stroke:none}
+[data-native-key="native-light-lifecycle"] :is(.c-frontend){fill:rgba(34, 211, 238, 0.15);stroke:#0891b2}
+[data-native-key="native-light-lifecycle"] :is(.c-backend){fill:rgba(52, 211, 153, 0.18);stroke:#059669}
+[data-native-key="native-light-lifecycle"] :is(.c-database){fill:rgba(167, 139, 250, 0.2);stroke:#7c3aed}
+[data-native-key="native-light-lifecycle"] :is(.c-cloud){fill:rgba(251, 191, 36, 0.18);stroke:#d97706}
+[data-native-key="native-light-lifecycle"] :is(.c-security){fill:rgba(251, 113, 133, 0.15);stroke:#e11d48}
+[data-native-key="native-light-lifecycle"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.15);stroke:#ea580c}
+[data-native-key="native-light-lifecycle"] :is(.c-external){fill:rgba(148, 163, 184, 0.18);stroke:#64748b}
+[data-native-key="native-light-lifecycle"] :is(.t-primary){fill:#111827}
+[data-native-key="native-light-lifecycle"] :is(.t-muted){fill:#5b6474}
+[data-native-key="native-light-lifecycle"] :is(.t-dim){fill:#9aa3b2}
+[data-native-key="native-light-lifecycle"] :is(.t-frontend){fill:#0891b2}
+[data-native-key="native-light-lifecycle"] :is(.t-backend){fill:#059669}
+[data-native-key="native-light-lifecycle"] :is(.t-database){fill:#7c3aed}
+[data-native-key="native-light-lifecycle"] :is(.t-cloud){fill:#d97706}
+[data-native-key="native-light-lifecycle"] :is(.t-security){fill:#e11d48}
+[data-native-key="native-light-lifecycle"] :is(.t-messagebus){fill:#ea580c}
+[data-native-key="native-light-lifecycle"] :is(.t-external){fill:#64748b}
+[data-native-key="native-light-lifecycle"] :is(.t-edge-default){fill:#5b6474}
+[data-native-key="native-light-lifecycle"] :is(.t-edge-emphasis){fill:#059669}
+[data-native-key="native-light-lifecycle"] :is(.t-edge-security){fill:#e11d48}
+[data-native-key="native-light-lifecycle"] :is(.t-edge-dashed){fill:#7c3aed}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 1px 1px rgba(17, 24, 39, 0.05)) drop-shadow(0 6px 12px rgba(17, 24, 39, 0.06))}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-wash){fill:rgba(17, 24, 39, 0.026)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="classic"][data-theme="light"] .c-lane-rule){stroke:#e5e7eb;opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
+[data-native-key="native-light-lifecycle"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
+[data-native-key="native-light-lifecycle"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
+[data-native-key="native-light-lifecycle"] :is(svg .s-frontend){color:#0891b2}
+[data-native-key="native-light-lifecycle"] :is(svg .s-backend){color:#059669}
+[data-native-key="native-light-lifecycle"] :is(svg .s-database){color:#7c3aed}
+[data-native-key="native-light-lifecycle"] :is(svg .s-cloud){color:#d97706}
+[data-native-key="native-light-lifecycle"] :is(svg .s-security){color:#e11d48}
+[data-native-key="native-light-lifecycle"] :is(svg .s-messagebus){color:#ea580c}
+[data-native-key="native-light-lifecycle"] :is(svg .s-external){color:#64748b}
+[data-native-key="native-light-lifecycle"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
+[data-native-key="native-light-lifecycle"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-lifecycle"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-light-lifecycle"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
+[data-native-key="native-light-lifecycle"] :is(.a-default){stroke:#64748b;fill:none}
+[data-native-key="native-light-lifecycle"] :is(.a-emphasis){stroke:#059669;fill:none}
+[data-native-key="native-light-lifecycle"] :is(.a-security){stroke:#e11d48;fill:none;stroke-dasharray:5,5}
+[data-native-key="native-light-lifecycle"] :is(.a-dashed){stroke:#7c3aed;fill:none;stroke-dasharray:4,4}
+[data-native-key="native-light-lifecycle"] :is(.m-default){fill:#64748b}
+[data-native-key="native-light-lifecycle"] :is(.m-emphasis){fill:#059669}
+[data-native-key="native-light-lifecycle"] :is(.m-security){fill:#e11d48}
+[data-native-key="native-light-lifecycle"] :is(.m-dashed){fill:#7c3aed}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-count-badge] rect){fill:#ffffff;stroke:#e5e7eb;stroke-width:1;vector-effect:non-scaling-stroke}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-count-badge] text){fill:#5b6474;font-size:8px;font-weight:700;text-anchor:middle}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#7c3aed;stroke-width:2.2;stroke-dasharray:3 2}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#7c3aed;stroke-width:1.8}
+[data-native-key="native-light-lifecycle"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #7c3aed)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-lifecycle"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
+[data-native-key="native-light-lifecycle"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #7c3aed)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #7c3aed)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #059669)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(124, 58, 237, 0.72))}
+[data-native-key="native-light-lifecycle"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(5, 150, 105, 0.72))}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #059669)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #7c3aed)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
+[data-native-key="native-light-lifecycle"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-route-match]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #e11d48)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #059669)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #059669)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #059669)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(17, 24, 39, 0.18))}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
+[data-native-key="native-light-lifecycle"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #0891b2)}
+[data-native-key="native-light-lifecycle"] :is(.c-security-group){fill:transparent;stroke:#e11d48;stroke-dasharray:4,4}
+[data-native-key="native-light-lifecycle"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#d97706;stroke-dasharray:8,4}
+[data-native-key="native-light-lifecycle"] :is(.c-lane){fill:rgba(248, 250, 252, 0.65);stroke:#cbd5e1;stroke-dasharray:6,6}
+[data-native-key="native-light-lifecycle"] :is(svg[data-theme="light"]){--bg:#f4f5f7;--grid:#e9edf2;--canvas-dot:#e2e7ec;--text:#111827;--text-muted:#5b6474;--text-dim:#9aa3b2;--text-faint:#6b7280;--panel:#ffffff;--panel-border:#e5e7eb;--lane-fill:rgba(248, 250, 252, 0.65);--lane-stroke:#cbd5e1;--arrow:#64748b;--arrow-emphasis:#059669;--edge-label:#5b6474;--mask:#ffffff;--frontend-fill:rgba(34, 211, 238, 0.15);--frontend-stroke:#0891b2;--backend-fill:rgba(52, 211, 153, 0.18);--backend-stroke:#059669;--database-fill:rgba(167, 139, 250, 0.2);--database-stroke:#7c3aed;--cloud-fill:rgba(251, 191, 36, 0.18);--cloud-stroke:#d97706;--security-fill:rgba(251, 113, 133, 0.15);--security-stroke:#e11d48;--messagebus-fill:rgba(251, 146, 60, 0.15);--messagebus-stroke:#ea580c;--external-fill:rgba(148, 163, 184, 0.18);--external-stroke:#64748b;--toolbar-bg:rgba(255, 255, 255, 0.92);--toolbar-border:#cbd5e1;--toolbar-text:#334155;--toolbar-hover:#ffffff;--toolbar-menu-bg:#ffffff;--reader-accent:#077f9c}
 #view-queues [data-node-id="worker"]{visibility:hidden}
 #view-lifecycle [data-node-id="executing"]{visibility:hidden}
 #story-token-0-0{offset-path:path("M 194 140 L 194 104 Q 194 96 202 96 L 290 96");offset-rotate:0deg}
@@ -456,24 +456,24 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
 #story-token-1-2{opacity:0!important;offset-distance:0%!important}
 #story-caption-0{opacity:0!important;transform:translateY(-6px)!important}
 #story-caption-1{opacity:1!important;transform:translateY(0px)!important}
-]]></style><defs><clipPath id="story-diagram-viewport" clipPathUnits="userSpaceOnUse"><rect x="18" y="112" width="924" height="432"/></clipPath></defs><rect width="960" height="560" fill="#f4f5f7"/><g data-story-layer="diagram" clip-path="url(#story-diagram-viewport)"><g id="view-queues" class="view-stage" data-native-key="native-queues" style="opacity:1"><g id="camera-queues" style="transform:translate(6.644px,110.538px) scale(1.20600);transform-origin:0 0"><svg viewBox="0 0 785 356" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" xmlns="http://www.w3.org/2000/svg" width="785" height="356" data-theme="light" data-archify-bake="static" x="0" y="0">
-        <title id="native-queues-archify-diagram-title">Tokio #1657: Bounded Local Ring &amp; Shared Queue</title>
-        <desc id="native-queues-archify-diagram-description">An architecture diagram generated by Archify.</desc>
+]]></style><defs><clipPath id="story-diagram-viewport" clipPathUnits="userSpaceOnUse"><rect x="18" y="112" width="924" height="432"/></clipPath></defs><rect width="960" height="560" fill="#f4f5f7"/><g data-story-layer="diagram" clip-path="url(#story-diagram-viewport)"><g id="view-queues" class="view-stage" data-native-key="native-light-queues" style="opacity:1"><g id="camera-queues" style="transform:translate(6.644px,110.538px) scale(1.20600);transform-origin:0 0"><svg viewBox="0 0 785 356" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" xmlns="http://www.w3.org/2000/svg" width="785" height="356" data-theme="light" data-archify-bake="static" x="0" y="0">
+        <title id="native-light-queues-archify-diagram-title">Tokio #1657: Bounded Local Ring &amp; Shared Queue</title>
+        <desc id="native-light-queues-archify-diagram-description">An architecture diagram generated by Archify.</desc>
         
         <defs>
-          <marker id="native-queues-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-queues-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-default"/>
           </marker>
-          <marker id="native-queues-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-queues-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-emphasis"/>
           </marker>
-          <marker id="native-queues-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-queues-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-security"/>
           </marker>
-          <marker id="native-queues-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-queues-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-dashed"/>
           </marker>
-          <pattern id="native-queues-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <pattern id="native-light-queues-grid" width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M 40 0 L 0 0 0 40" class="c-grid" stroke-width="0.5" data-story-edge-id="null~null" data-story-path-idx="1"/>
           </pattern>
         </defs>
@@ -488,23 +488,23 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         
         <g data-graph-role="automatic-crossover" style="--step:0" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 194 140 L 194 104 Q 194 96 202 96 L 290 96" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="2"/>
-          <path data-edge-from="worker" data-edge-to="local_ring" data-edge-label="push_back_or_overflow" data-edge-key="0" data-edge-id="c_push" data-composition-points="194,140;194,96;290,96" data-composition-crossover="halo" data-composition-independent="true" d="M 194 140 L 194 104 Q 194 96 202 96 L 290 96" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-queues-arrowhead-emphasis)" data-story-edge-id="c_push" data-story-path-idx="3"/>
+          <path data-edge-from="worker" data-edge-to="local_ring" data-edge-label="push_back_or_overflow" data-edge-key="0" data-edge-id="c_push" data-composition-points="194,140;194,96;290,96" data-composition-crossover="halo" data-composition-independent="true" d="M 194 140 L 194 104 Q 194 96 202 96 L 290 96" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-light-queues-arrowhead-emphasis)" data-story-edge-id="c_push" data-story-path-idx="3"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:1" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 395 148 L 395 220" fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="4"/>
-          <path data-edge-from="local_ring" data-edge-to="inject" data-edge-label="half batch spill" data-edge-key="1" data-edge-id="c_overflow" data-composition-points="395,148;395,220" data-composition-crossover="halo" data-composition-independent="true" d="M 395 148 L 395 220" class="a-dashed" data-animate="edge" style="--step:1" stroke-width="1.5" marker-end="url(#native-queues-arrowhead-dashed)" data-story-edge-id="c_overflow" data-story-path-idx="5"/>
+          <path data-edge-from="local_ring" data-edge-to="inject" data-edge-label="half batch spill" data-edge-key="1" data-edge-id="c_overflow" data-composition-points="395,148;395,220" data-composition-crossover="halo" data-composition-independent="true" d="M 395 148 L 395 220" class="a-dashed" data-animate="edge" style="--step:1" stroke-width="1.5" marker-end="url(#native-light-queues-arrowhead-dashed)" data-story-edge-id="c_overflow" data-story-path-idx="5"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:2" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 484 148 L 484 152 Q 484 156 488 156 L 580 156" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="6"/>
-          <path data-edge-from="local_ring" data-edge-to="peer" data-edge-label="batch steal" data-edge-key="2" data-edge-id="c_steal" data-composition-points="484,148;484,156;580,156" data-composition-crossover="halo" data-composition-independent="true" d="M 484 148 L 484 152 Q 484 156 488 156 L 580 156" class="a-emphasis" data-animate="edge" style="--step:2" stroke-width="1.8" marker-end="url(#native-queues-arrowhead-emphasis)" data-story-edge-id="c_steal" data-story-path-idx="7"/>
+          <path data-edge-from="local_ring" data-edge-to="peer" data-edge-label="batch steal" data-edge-key="2" data-edge-id="c_steal" data-composition-points="484,148;484,156;580,156" data-composition-crossover="halo" data-composition-independent="true" d="M 484 148 L 484 152 Q 484 156 488 156 L 580 156" class="a-emphasis" data-animate="edge" style="--step:2" stroke-width="1.8" marker-end="url(#native-light-queues-arrowhead-emphasis)" data-story-edge-id="c_steal" data-story-path-idx="7"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:3" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 500 236 L 588 236 Q 596 236 596 228 L 596 208" fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="8"/>
-          <path data-edge-from="inject" data-edge-to="peer" data-edge-label="fallback pop" data-edge-key="3" data-edge-id="c_pop" data-composition-points="500,236;596,236;596,208" data-composition-crossover="halo" data-composition-independent="true" d="M 500 236 L 588 236 Q 596 236 596 228 L 596 208" class="a-default" data-animate="edge" style="--step:3" stroke-width="1.5" marker-end="url(#native-queues-arrowhead)" data-story-edge-id="c_pop" data-story-path-idx="9"/>
+          <path data-edge-from="inject" data-edge-to="peer" data-edge-label="fallback pop" data-edge-key="3" data-edge-id="c_pop" data-composition-points="500,236;596,236;596,208" data-composition-crossover="halo" data-composition-independent="true" d="M 500 236 L 588 236 Q 596 236 596 228 L 596 208" class="a-default" data-animate="edge" style="--step:3" stroke-width="1.5" marker-end="url(#native-light-queues-arrowhead)" data-story-edge-id="c_pop" data-story-path-idx="9"/>
         </g>
 
         
-        <g id="native-queues-node-worker" data-node-id="worker" data-node-label="Worker Thread" tabindex="0" role="button" aria-label="Focus Worker Thread, run_queue + park, Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="run_queue + park" data-node-context="Architecture component">
+        <g id="native-light-queues-node-worker" data-node-id="worker" data-node-label="Worker Thread" tabindex="0" role="button" aria-label="Focus Worker Thread, run_queue + park, Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="run_queue + park" data-node-context="Architecture component">
           <title>Worker Thread · run_queue + park · Architecture component</title>
           <rect x="40" y="140" width="170" height="68" rx="8" class="c-mask"/>
           <rect x="40" y="140" width="170" height="68" rx="8" class="c-backend" data-animate="node" style="--step:0" stroke-width="1.5"/>
@@ -515,7 +515,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <text data-detail="context" x="125" y="188" class="t-muted" font-size="9" text-anchor="middle">run_queue + park</text>
         </g>
 
-        <g id="native-queues-node-local_ring" data-node-id="local_ring" data-node-label="Bounded Ring Queue" tabindex="0" role="button" aria-label="Focus Bounded Ring Queue, 256 slots (replaces Chase-Lev), Architecture component" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="256 slots (replaces Chase-Lev)" data-node-context="Architecture component">
+        <g id="native-light-queues-node-local_ring" data-node-id="local_ring" data-node-label="Bounded Ring Queue" tabindex="0" role="button" aria-label="Focus Bounded Ring Queue, 256 slots (replaces Chase-Lev), Architecture component" aria-pressed="false" data-node-kind="messagebus" data-node-sublabel="256 slots (replaces Chase-Lev)" data-node-context="Architecture component">
           <title>Bounded Ring Queue · 256 slots (replaces Chase-Lev) · Architecture component</title>
           <rect x="290" y="80" width="210" height="68" rx="8" class="c-mask"/>
           <rect x="290" y="80" width="210" height="68" rx="8" class="c-messagebus" data-animate="node" style="--step:1" stroke-width="1.5"/>
@@ -529,7 +529,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <text data-detail="context" x="395" y="128" class="t-muted" font-size="9" text-anchor="middle">256 slots (replaces Chase-Lev)</text>
         <g data-story-node-badge="" data-story-callout="added" pointer-events="none"><rect x="421" y="71" width="73" height="18" rx="6" fill="#f4f5f7" stroke="none"/><rect x="421" y="71" width="73" height="18" rx="6" fill="#059669" fill-opacity="0.14" stroke="#059669" stroke-width="1"/><text x="457.5" y="83.5" fill="#059669" font-size="10.5" font-weight="600" text-anchor="middle">有界环形队列</text></g></g>
 
-        <g id="native-queues-node-inject" data-node-id="inject" data-node-label="Global Inject Queue" tabindex="0" role="button" aria-label="Focus Global Inject Queue, Mutex overflow + external, Architecture component" aria-pressed="false" data-node-kind="database" data-node-sublabel="Mutex overflow + external" data-node-context="Architecture component">
+        <g id="native-light-queues-node-inject" data-node-id="inject" data-node-label="Global Inject Queue" tabindex="0" role="button" aria-label="Focus Global Inject Queue, Mutex overflow + external, Architecture component" aria-pressed="false" data-node-kind="database" data-node-sublabel="Mutex overflow + external" data-node-context="Architecture component">
           <title>Global Inject Queue · Mutex overflow + external · Architecture component</title>
           <rect x="290" y="220" width="210" height="68" rx="8" class="c-mask"/>
           <rect x="290" y="220" width="210" height="68" rx="8" class="c-database" data-animate="node" style="--step:2" stroke-width="1.5"/>
@@ -541,7 +541,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <text data-detail="context" x="395" y="268" class="t-muted" font-size="9" text-anchor="middle">Mutex overflow + external</text>
         <g data-story-node-badge="" data-story-callout="modified" pointer-events="none"><rect x="440" y="211" width="54" height="18" rx="6" fill="#f4f5f7" stroke="none"/><rect x="440" y="211" width="54" height="18" rx="6" fill="#d97706" fill-opacity="0.14" stroke="#d97706" stroke-width="1"/><text x="467" y="223.5" fill="#d97706" font-size="10.5" font-weight="600" text-anchor="middle">半批溢出</text></g></g>
 
-        <g id="native-queues-node-peer" data-node-id="peer" data-node-label="Peer Worker" tabindex="0" role="button" aria-label="Focus Peer Worker, steal_batch(), Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="steal_batch()" data-node-context="Architecture component">
+        <g id="native-light-queues-node-peer" data-node-id="peer" data-node-label="Peer Worker" tabindex="0" role="button" aria-label="Focus Peer Worker, steal_batch(), Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="steal_batch()" data-node-context="Architecture component">
           <title>Peer Worker · steal_batch() · Architecture component</title>
           <rect x="580" y="140" width="165" height="68" rx="8" class="c-mask"/>
           <rect x="580" y="140" width="165" height="68" rx="8" class="c-backend" data-animate="node" style="--step:3" stroke-width="1.5"/>
@@ -589,24 +589,24 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
             <text x="286" y="340" class="t-muted" font-size="10" font-weight="500">Message bus</text>
           </g>
         </g>
-      </svg><g data-story-tokens=""><circle id="story-token-0-0" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-0-1" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-0-2" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/></g></g></g><g id="view-lifecycle" class="view-stage" data-native-key="native-lifecycle" style="opacity:0"><g id="camera-lifecycle" style="transform:translate(-11.903px,214.688px) scale(1.18817);transform-origin:0 0"><svg viewBox="0 0 828 236" data-reader-fit="intrinsic-height" data-lifecycle-layout="main-path-v3" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-motion-choreography="walk" xmlns="http://www.w3.org/2000/svg" width="828" height="236" data-theme="light" data-archify-bake="static" x="0" y="0">
-        <title id="native-lifecycle-archify-diagram-title">Tokio #1657: Worker Search &amp; Park Transitions</title>
-        <desc id="native-lifecycle-archify-diagram-description">A lifecycle diagram generated by Archify.</desc>
+      </svg><g data-story-tokens=""><circle id="story-token-0-0" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-0-1" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-0-2" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/></g></g></g><g id="view-lifecycle" class="view-stage" data-native-key="native-light-lifecycle" style="opacity:0"><g id="camera-lifecycle" style="transform:translate(-11.903px,214.688px) scale(1.18817);transform-origin:0 0"><svg viewBox="0 0 828 236" data-reader-fit="intrinsic-height" data-lifecycle-layout="main-path-v3" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-motion-choreography="walk" xmlns="http://www.w3.org/2000/svg" width="828" height="236" data-theme="light" data-archify-bake="static" x="0" y="0">
+        <title id="native-light-lifecycle-archify-diagram-title">Tokio #1657: Worker Search &amp; Park Transitions</title>
+        <desc id="native-light-lifecycle-archify-diagram-description">A lifecycle diagram generated by Archify.</desc>
         
         <defs>
-          <marker id="native-lifecycle-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-lifecycle-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-default"/>
           </marker>
-          <marker id="native-lifecycle-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-lifecycle-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-emphasis"/>
           </marker>
-          <marker id="native-lifecycle-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-lifecycle-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-security"/>
           </marker>
-          <marker id="native-lifecycle-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-light-lifecycle-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-dashed"/>
           </marker>
-          <pattern id="native-lifecycle-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <pattern id="native-light-lifecycle-grid" width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M 40 0 L 0 0 0 40" class="c-grid" stroke-width="0.5" data-story-edge-id="null~null" data-story-path-idx="1"/>
           </pattern>
         </defs>
@@ -620,24 +620,24 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         
         <g data-graph-role="automatic-crossover" style="--step:0" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 225 126 L 329 126" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="2"/>
-          <path data-edge-from="executing" data-edge-to="searching" data-edge-label="local empty" data-edge-key="0" data-edge-id="t_search" data-composition-points="225,126;329,126" data-composition-crossover="halo" data-composition-independent="true" d="M 225 126 L 329 126" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-lifecycle-arrowhead-emphasis)" data-story-edge-id="t_search" data-story-path-idx="3"/>
+          <path data-edge-from="executing" data-edge-to="searching" data-edge-label="local empty" data-edge-key="0" data-edge-id="t_search" data-composition-points="225,126;329,126" data-composition-crossover="halo" data-composition-independent="true" d="M 225 126 L 329 126" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-light-lifecycle-arrowhead-emphasis)" data-story-edge-id="t_search" data-story-path-idx="3"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:1" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 481 126 L 609 126" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="4"/>
-          <path data-edge-from="searching" data-edge-to="parked" data-edge-label="no stolen tasks" data-edge-key="1" data-edge-id="t_park" data-composition-points="481,126;609,126" data-composition-crossover="halo" data-composition-independent="true" d="M 481 126 L 609 126" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#native-lifecycle-arrowhead-emphasis)" data-story-edge-id="t_park" data-story-path-idx="5"/>
+          <path data-edge-from="searching" data-edge-to="parked" data-edge-label="no stolen tasks" data-edge-key="1" data-edge-id="t_park" data-composition-points="481,126;609,126" data-composition-crossover="halo" data-composition-independent="true" d="M 481 126 L 609 126" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#native-light-lifecycle-arrowhead-emphasis)" data-story-edge-id="t_park" data-story-path-idx="5"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:2" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 405 94 L 405 76 Q 405 64 393 64 L 165.5 64 Q 153.5 64 153.5 76 L 153.5 94" fill="none" stroke="#ffffff" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="6"/>
-          <path data-edge-from="searching" data-edge-to="executing" data-edge-label="batch stolen" data-edge-key="2" data-edge-id="t_wake" data-composition-points="405,94;405,64;153.5,64;153.5,94" data-composition-crossover="halo" data-composition-independent="true" d="M 405 94 L 405 76 Q 405 64 393 64 L 165.5 64 Q 153.5 64 153.5 76 L 153.5 94" class="a-dashed" data-animate="edge" style="--step:2" stroke-width="1.2" marker-end="url(#native-lifecycle-arrowhead-dashed)" data-story-edge-id="t_wake" data-story-path-idx="7"/>
+          <path data-edge-from="searching" data-edge-to="executing" data-edge-label="batch stolen" data-edge-key="2" data-edge-id="t_wake" data-composition-points="405,94;405,64;153.5,64;153.5,94" data-composition-crossover="halo" data-composition-independent="true" d="M 405 94 L 405 76 Q 405 64 393 64 L 165.5 64 Q 153.5 64 153.5 76 L 153.5 94" class="a-dashed" data-animate="edge" style="--step:2" stroke-width="1.2" marker-end="url(#native-light-lifecycle-arrowhead-dashed)" data-story-edge-id="t_wake" data-story-path-idx="7"/>
         </g>
         <g data-graph-role="automatic-crossover" style="--step:3" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 690.5 94 L 690.5 52 Q 690.5 40 678.5 40 L 139.5 40 Q 127.5 40 127.5 52 L 127.5 94" fill="none" stroke="#ffffff" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="8"/>
-          <path data-edge-from="parked" data-edge-to="executing" data-edge-label="notify_worker" data-edge-key="3" data-edge-id="t_unpark" data-composition-points="690.5,94;690.5,40;127.5,40;127.5,94" data-composition-crossover="halo" data-composition-independent="true" d="M 690.5 94 L 690.5 52 Q 690.5 40 678.5 40 L 139.5 40 Q 127.5 40 127.5 52 L 127.5 94" class="a-dashed" data-animate="edge" style="--step:3" stroke-width="1.2" marker-end="url(#native-lifecycle-arrowhead-dashed)" data-story-edge-id="t_unpark" data-story-path-idx="9"/>
+          <path data-edge-from="parked" data-edge-to="executing" data-edge-label="notify_worker" data-edge-key="3" data-edge-id="t_unpark" data-composition-points="690.5,94;690.5,40;127.5,40;127.5,94" data-composition-crossover="halo" data-composition-independent="true" d="M 690.5 94 L 690.5 52 Q 690.5 40 678.5 40 L 139.5 40 Q 127.5 40 127.5 52 L 127.5 94" class="a-dashed" data-animate="edge" style="--step:3" stroke-width="1.2" marker-end="url(#native-light-lifecycle-arrowhead-dashed)" data-story-edge-id="t_unpark" data-story-path-idx="9"/>
         </g>
 
 
         
-        <g id="native-lifecycle-node-executing" data-node-id="executing" data-node-label="Executing" tabindex="0" role="button" aria-label="Focus Executing, drain local ring + LIFO, Lifecycle state" aria-pressed="false" data-node-kind="active" data-node-sublabel="drain local ring + LIFO" data-node-context="Lifecycle state">
+        <g id="native-light-lifecycle-node-executing" data-node-id="executing" data-node-label="Executing" tabindex="0" role="button" aria-label="Focus Executing, drain local ring + LIFO, Lifecycle state" aria-pressed="false" data-node-kind="active" data-node-sublabel="drain local ring + LIFO" data-node-context="Lifecycle state">
           <title>Executing · drain local ring + LIFO · Lifecycle state</title>
           <rect x="56" y="94" width="169" height="64" rx="8" class="c-mask"/>
           <rect x="56" y="94" width="169" height="64" rx="8" class="c-frontend" data-animate="node" style="--step:0" stroke-width="1.5"/>
@@ -648,7 +648,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           <text data-detail="context" x="140.5" y="139" class="t-muted" font-size="9" text-anchor="middle">drain local ring + LIFO</text>
         </g>
 
-        <g id="native-lifecycle-node-searching" data-node-id="searching" data-node-label="Searching" tabindex="0" role="button" aria-label="Focus Searching, relaxed search bound, Lifecycle state" aria-pressed="false" data-node-kind="decision" data-node-sublabel="relaxed search bound" data-node-context="Lifecycle state">
+        <g id="native-light-lifecycle-node-searching" data-node-id="searching" data-node-label="Searching" tabindex="0" role="button" aria-label="Focus Searching, relaxed search bound, Lifecycle state" aria-pressed="false" data-node-kind="decision" data-node-sublabel="relaxed search bound" data-node-context="Lifecycle state">
           <title>Searching · relaxed search bound · Lifecycle state</title>
           <rect x="329" y="94" width="152" height="64" rx="8" class="c-mask"/>
           <rect x="329" y="94" width="152" height="64" rx="8" class="c-database" data-animate="node" style="--step:1" stroke-width="1.5"/>
@@ -660,7 +660,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           <text data-detail="context" x="405" y="139" class="t-muted" font-size="9" text-anchor="middle">relaxed search bound</text>
         <g data-story-node-badge="" data-story-callout="modified" pointer-events="none"><rect x="396" y="85" width="79" height="18" rx="6" fill="#f4f5f7" stroke="none"/><rect x="396" y="85" width="79" height="18" rx="6" fill="#d97706" fill-opacity="0.14" stroke="#d97706" stroke-width="1"/><text x="435.5" y="97.5" fill="#d97706" font-size="10.5" font-weight="600" text-anchor="middle">Relaxed 限制</text></g></g>
 
-        <g id="native-lifecycle-node-parked" data-node-id="parked" data-node-label="Parked" tabindex="0" role="button" aria-label="Focus Parked, Mutex&lt;Vec&lt;usize&gt;&gt; idle, Lifecycle state" aria-pressed="false" data-node-kind="waiting" data-node-sublabel="Mutex&lt;Vec&lt;usize&gt;&gt; idle" data-node-context="Lifecycle state">
+        <g id="native-light-lifecycle-node-parked" data-node-id="parked" data-node-label="Parked" tabindex="0" role="button" aria-label="Focus Parked, Mutex&lt;Vec&lt;usize&gt;&gt; idle, Lifecycle state" aria-pressed="false" data-node-kind="waiting" data-node-sublabel="Mutex&lt;Vec&lt;usize&gt;&gt; idle" data-node-context="Lifecycle state">
           <title>Parked · Mutex&lt;Vec&lt;usize&gt;&gt; idle · Lifecycle state</title>
           <rect x="609" y="94" width="163" height="64" rx="8" class="c-mask"/>
           <rect x="609" y="94" width="163" height="64" rx="8" class="c-cloud" data-animate="node" style="--step:2" stroke-width="1.5"/>
@@ -710,7 +710,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
             <text x="432" y="204" class="t-muted" font-size="10" font-weight="500">decision</text>
           </g>
         </g>
-      </svg><g data-story-tokens=""><circle id="story-token-1-0" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-1-1" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-1-2" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/></g></g></g><g data-native-key="native-queues"><g id="story-shared-worker" class="story-shared-layer" style="opacity:1;transform:translate(6.644px,110.538px) scale(1.20600);transform-origin:0 0"><g data-node-id="worker" data-node-label="Worker Thread" tabindex="0" role="button" aria-label="Focus Worker Thread, run_queue + park, Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="run_queue + park" data-node-context="Architecture component">
+      </svg><g data-story-tokens=""><circle id="story-token-1-0" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-1-1" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/><circle id="story-token-1-2" data-story-token="" cx="0" cy="0" r="5" fill="#059669" stroke="#f4f5f7" stroke-width="2" style="opacity:0"/></g></g></g><g data-native-key="native-light-queues"><g id="story-shared-worker" class="story-shared-layer" style="opacity:1;transform:translate(6.644px,110.538px) scale(1.20600);transform-origin:0 0"><g data-node-id="worker" data-node-label="Worker Thread" tabindex="0" role="button" aria-label="Focus Worker Thread, run_queue + park, Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="run_queue + park" data-node-context="Architecture component">
           <title>Worker Thread · run_queue + park · Architecture component</title>
           <rect x="40" y="140" width="170" height="68" rx="8" class="c-mask"/>
           <rect x="40" y="140" width="170" height="68" rx="8" class="c-backend" data-animate="node" style="--step:0" stroke-width="1.5"/>

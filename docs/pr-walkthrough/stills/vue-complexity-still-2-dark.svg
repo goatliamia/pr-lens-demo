@@ -136,305 +136,305 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
 [data-native-key] [data-legend]{display:none}
 [data-story-node-badge] text{font-size:10.5px!important}
 [data-story-metric]{visibility:visible}
-[data-native-key="native-bindings"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-bindings"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-bindings"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
-[data-native-key="native-bindings"] :is(svg .archify-drilldown-mark-disc){fill:rgba(50, 199, 146, 0.94);stroke:#34917a;stroke-width:1}
-[data-native-key="native-bindings"] :is(svg .archify-drilldown-mark-arrow){stroke:rgba(15, 23, 42, 0.5);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-bindings"] :is(.c-grid){stroke:#1e293b;fill:none}
-[data-native-key="native-bindings"] :is(.c-mask){fill:#0f172a;stroke:none}
-[data-native-key="native-bindings"] :is(.c-lane-rule){stroke:#334155;fill:none;opacity:0.7}
-[data-native-key="native-bindings"] :is(.c-lane-wash){fill:rgba(15, 23, 42, 0.22);stroke:none}
-[data-native-key="native-bindings"] :is(.c-frontend){fill:rgba(8, 51, 68, 0.4);stroke:#22d3ee}
-[data-native-key="native-bindings"] :is(.c-backend){fill:rgba(6, 78, 59, 0.4);stroke:#34d399}
-[data-native-key="native-bindings"] :is(.c-database){fill:rgba(76, 29, 149, 0.4);stroke:#a78bfa}
-[data-native-key="native-bindings"] :is(.c-cloud){fill:rgba(120, 53, 15, 0.3);stroke:#fbbf24}
-[data-native-key="native-bindings"] :is(.c-security){fill:rgba(136, 19, 55, 0.4);stroke:#fb7185}
-[data-native-key="native-bindings"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.3);stroke:#fb923c}
-[data-native-key="native-bindings"] :is(.c-external){fill:rgba(30, 41, 59, 0.5);stroke:#94a3b8}
-[data-native-key="native-bindings"] :is(.t-primary){fill:#ffffff}
-[data-native-key="native-bindings"] :is(.t-muted){fill:#94a3b8}
-[data-native-key="native-bindings"] :is(.t-dim){fill:#475569}
-[data-native-key="native-bindings"] :is(.t-frontend){fill:#22d3ee}
-[data-native-key="native-bindings"] :is(.t-backend){fill:#34d399}
-[data-native-key="native-bindings"] :is(.t-database){fill:#a78bfa}
-[data-native-key="native-bindings"] :is(.t-cloud){fill:#fbbf24}
-[data-native-key="native-bindings"] :is(.t-security){fill:#fb7185}
-[data-native-key="native-bindings"] :is(.t-messagebus){fill:#fb923c}
-[data-native-key="native-bindings"] :is(.t-external){fill:#94a3b8}
-[data-native-key="native-bindings"] :is(.t-edge-default){fill:#94a3b8}
-[data-native-key="native-bindings"] :is(.t-edge-emphasis){fill:#34d399}
-[data-native-key="native-bindings"] :is(.t-edge-security){fill:#fb7185}
-[data-native-key="native-bindings"] :is(.t-edge-dashed){fill:#a78bfa}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35))}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-wash){fill:rgba(255, 255, 255, 0.026)}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:#1e293b;opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:rgba(148, 163, 184, 0.16)}
-[data-native-key="native-bindings"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
-[data-native-key="native-bindings"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
-[data-native-key="native-bindings"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
-[data-native-key="native-bindings"] :is(svg .s-frontend){color:#22d3ee}
-[data-native-key="native-bindings"] :is(svg .s-backend){color:#34d399}
-[data-native-key="native-bindings"] :is(svg .s-database){color:#a78bfa}
-[data-native-key="native-bindings"] :is(svg .s-cloud){color:#fbbf24}
-[data-native-key="native-bindings"] :is(svg .s-security){color:#fb7185}
-[data-native-key="native-bindings"] :is(svg .s-messagebus){color:#fb923c}
-[data-native-key="native-bindings"] :is(svg .s-external){color:#94a3b8}
-[data-native-key="native-bindings"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
-[data-native-key="native-bindings"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
-[data-native-key="native-bindings"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-bindings"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
-[data-native-key="native-bindings"] :is(.a-default){stroke:#94a3b8;fill:none}
-[data-native-key="native-bindings"] :is(.a-emphasis){stroke:#34d399;fill:none}
-[data-native-key="native-bindings"] :is(.a-security){stroke:#fb7185;fill:none;stroke-dasharray:5,5}
-[data-native-key="native-bindings"] :is(.a-dashed){stroke:#a78bfa;fill:none;stroke-dasharray:4,4}
-[data-native-key="native-bindings"] :is(.m-default){fill:#94a3b8}
-[data-native-key="native-bindings"] :is(.m-emphasis){fill:#34d399}
-[data-native-key="native-bindings"] :is(.m-security){fill:#fb7185}
-[data-native-key="native-bindings"] :is(.m-dashed){fill:#a78bfa}
-[data-native-key="native-bindings"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
-[data-native-key="native-bindings"] :is(svg [data-legend-count-badge] rect){fill:#0f172a;stroke:#1e293b;stroke-width:1;vector-effect:non-scaling-stroke}
-[data-native-key="native-bindings"] :is(svg [data-legend-count-badge] text){fill:#94a3b8;font-size:8px;font-weight:700;text-anchor:middle}
-[data-native-key="native-bindings"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#a78bfa;stroke-width:2.2;stroke-dasharray:3 2}
-[data-native-key="native-bindings"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#a78bfa;stroke-width:1.8}
-[data-native-key="native-bindings"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #a78bfa)}
-[data-native-key="native-bindings"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-bindings"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
-[data-native-key="native-bindings"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #a78bfa)}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
-[data-native-key="native-bindings"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
-[data-native-key="native-bindings"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #a78bfa)}
-[data-native-key="native-bindings"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #34d399)}
-[data-native-key="native-bindings"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(167, 139, 250, 0.72))}
-[data-native-key="native-bindings"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(52, 211, 153, 0.72))}
-[data-native-key="native-bindings"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
-[data-native-key="native-bindings"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
-[data-native-key="native-bindings"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
-[data-native-key="native-bindings"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #34d399)}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #a78bfa)}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
-[data-native-key="native-bindings"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
-[data-native-key="native-bindings"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-route-match]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #fb7185)}
-[data-native-key="native-bindings"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #34d399)}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #34d399)}
-[data-native-key="native-bindings"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #34d399)}
-[data-native-key="native-bindings"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(255, 255, 255, 0.18))}
-[data-native-key="native-bindings"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #22d3ee)}
-[data-native-key="native-bindings"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
-[data-native-key="native-bindings"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #22d3ee)}
-[data-native-key="native-bindings"] :is(.c-security-group){fill:transparent;stroke:#fb7185;stroke-dasharray:4,4}
-[data-native-key="native-bindings"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#fbbf24;stroke-dasharray:8,4}
-[data-native-key="native-bindings"] :is(.c-lane){fill:rgba(15, 23, 42, 0.22);stroke:#334155;stroke-dasharray:6,6}
-[data-native-key="native-bindings"] :is(svg[data-theme="dark"]){--bg:#020617;--grid:#1e293b;--canvas-dot:rgba(148, 163, 184, 0.16);--text:#ffffff;--text-muted:#94a3b8;--text-dim:#475569;--text-faint:#7d8da1;--panel:rgba(15, 23, 42, 0.5);--panel-border:#1e293b;--lane-fill:rgba(15, 23, 42, 0.22);--lane-stroke:#334155;--arrow:#94a3b8;--arrow-emphasis:#34d399;--edge-label:#94a3b8;--mask:#0f172a;--frontend-fill:rgba(8, 51, 68, 0.4);--frontend-stroke:#22d3ee;--backend-fill:rgba(6, 78, 59, 0.4);--backend-stroke:#34d399;--database-fill:rgba(76, 29, 149, 0.4);--database-stroke:#a78bfa;--cloud-fill:rgba(120, 53, 15, 0.3);--cloud-stroke:#fbbf24;--security-fill:rgba(136, 19, 55, 0.4);--security-stroke:#fb7185;--messagebus-fill:rgba(251, 146, 60, 0.3);--messagebus-stroke:#fb923c;--external-fill:rgba(30, 41, 59, 0.5);--external-stroke:#94a3b8;--toolbar-bg:rgba(15, 23, 42, 0.8);--toolbar-border:#334155;--toolbar-text:#e2e8f0;--toolbar-hover:rgba(15, 23, 42, 0.95);--toolbar-menu-bg:#0f172a}
-[data-native-key="native-expr"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-expr"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
-[data-native-key="native-expr"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
-[data-native-key="native-expr"] :is(svg .archify-drilldown-mark-disc){fill:rgba(50, 199, 146, 0.94);stroke:#34917a;stroke-width:1}
-[data-native-key="native-expr"] :is(svg .archify-drilldown-mark-arrow){stroke:rgba(15, 23, 42, 0.5);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-expr"] :is(.c-grid){stroke:#1e293b;fill:none}
-[data-native-key="native-expr"] :is(.c-mask){fill:#0f172a;stroke:none}
-[data-native-key="native-expr"] :is(.c-lane-rule){stroke:#334155;fill:none;opacity:0.7}
-[data-native-key="native-expr"] :is(.c-lane-wash){fill:rgba(15, 23, 42, 0.22);stroke:none}
-[data-native-key="native-expr"] :is(.c-frontend){fill:rgba(8, 51, 68, 0.4);stroke:#22d3ee}
-[data-native-key="native-expr"] :is(.c-backend){fill:rgba(6, 78, 59, 0.4);stroke:#34d399}
-[data-native-key="native-expr"] :is(.c-database){fill:rgba(76, 29, 149, 0.4);stroke:#a78bfa}
-[data-native-key="native-expr"] :is(.c-cloud){fill:rgba(120, 53, 15, 0.3);stroke:#fbbf24}
-[data-native-key="native-expr"] :is(.c-security){fill:rgba(136, 19, 55, 0.4);stroke:#fb7185}
-[data-native-key="native-expr"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.3);stroke:#fb923c}
-[data-native-key="native-expr"] :is(.c-external){fill:rgba(30, 41, 59, 0.5);stroke:#94a3b8}
-[data-native-key="native-expr"] :is(.t-primary){fill:#ffffff}
-[data-native-key="native-expr"] :is(.t-muted){fill:#94a3b8}
-[data-native-key="native-expr"] :is(.t-dim){fill:#475569}
-[data-native-key="native-expr"] :is(.t-frontend){fill:#22d3ee}
-[data-native-key="native-expr"] :is(.t-backend){fill:#34d399}
-[data-native-key="native-expr"] :is(.t-database){fill:#a78bfa}
-[data-native-key="native-expr"] :is(.t-cloud){fill:#fbbf24}
-[data-native-key="native-expr"] :is(.t-security){fill:#fb7185}
-[data-native-key="native-expr"] :is(.t-messagebus){fill:#fb923c}
-[data-native-key="native-expr"] :is(.t-external){fill:#94a3b8}
-[data-native-key="native-expr"] :is(.t-edge-default){fill:#94a3b8}
-[data-native-key="native-expr"] :is(.t-edge-emphasis){fill:#34d399}
-[data-native-key="native-expr"] :is(.t-edge-security){fill:#fb7185}
-[data-native-key="native-expr"] :is(.t-edge-dashed){fill:#a78bfa}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"][data-theme="dark"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35))}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"][data-theme="dark"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-wash){fill:rgba(255, 255, 255, 0.026)}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:#1e293b;opacity:1}
-[data-native-key="native-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:rgba(148, 163, 184, 0.16)}
-[data-native-key="native-expr"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
-[data-native-key="native-expr"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
-[data-native-key="native-expr"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
-[data-native-key="native-expr"] :is(svg .s-frontend){color:#22d3ee}
-[data-native-key="native-expr"] :is(svg .s-backend){color:#34d399}
-[data-native-key="native-expr"] :is(svg .s-database){color:#a78bfa}
-[data-native-key="native-expr"] :is(svg .s-cloud){color:#fbbf24}
-[data-native-key="native-expr"] :is(svg .s-security){color:#fb7185}
-[data-native-key="native-expr"] :is(svg .s-messagebus){color:#fb923c}
-[data-native-key="native-expr"] :is(svg .s-external){color:#94a3b8}
-[data-native-key="native-expr"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
-[data-native-key="native-expr"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
-[data-native-key="native-expr"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
-[data-native-key="native-expr"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
-[data-native-key="native-expr"] :is(.a-default){stroke:#94a3b8;fill:none}
-[data-native-key="native-expr"] :is(.a-emphasis){stroke:#34d399;fill:none}
-[data-native-key="native-expr"] :is(.a-security){stroke:#fb7185;fill:none;stroke-dasharray:5,5}
-[data-native-key="native-expr"] :is(.a-dashed){stroke:#a78bfa;fill:none;stroke-dasharray:4,4}
-[data-native-key="native-expr"] :is(.m-default){fill:#94a3b8}
-[data-native-key="native-expr"] :is(.m-emphasis){fill:#34d399}
-[data-native-key="native-expr"] :is(.m-security){fill:#fb7185}
-[data-native-key="native-expr"] :is(.m-dashed){fill:#a78bfa}
-[data-native-key="native-expr"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
-[data-native-key="native-expr"] :is(svg [data-legend-count-badge] rect){fill:#0f172a;stroke:#1e293b;stroke-width:1;vector-effect:non-scaling-stroke}
-[data-native-key="native-expr"] :is(svg [data-legend-count-badge] text){fill:#94a3b8;font-size:8px;font-weight:700;text-anchor:middle}
-[data-native-key="native-expr"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#a78bfa;stroke-width:2.2;stroke-dasharray:3 2}
-[data-native-key="native-expr"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#a78bfa;stroke-width:1.8}
-[data-native-key="native-expr"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #a78bfa)}
-[data-native-key="native-expr"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-expr"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
-[data-native-key="native-expr"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #a78bfa)}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
-[data-native-key="native-expr"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
-[data-native-key="native-expr"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #a78bfa)}
-[data-native-key="native-expr"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #34d399)}
-[data-native-key="native-expr"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(167, 139, 250, 0.72))}
-[data-native-key="native-expr"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(52, 211, 153, 0.72))}
-[data-native-key="native-expr"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
-[data-native-key="native-expr"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
-[data-native-key="native-expr"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
-[data-native-key="native-expr"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #34d399)}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #a78bfa)}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
-[data-native-key="native-expr"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
-[data-native-key="native-expr"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-route-match]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #fb7185)}
-[data-native-key="native-expr"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #34d399)}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #34d399)}
-[data-native-key="native-expr"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #34d399)}
-[data-native-key="native-expr"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(255, 255, 255, 0.18))}
-[data-native-key="native-expr"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #22d3ee)}
-[data-native-key="native-expr"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
-[data-native-key="native-expr"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #22d3ee)}
-[data-native-key="native-expr"] :is(.c-security-group){fill:transparent;stroke:#fb7185;stroke-dasharray:4,4}
-[data-native-key="native-expr"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#fbbf24;stroke-dasharray:8,4}
-[data-native-key="native-expr"] :is(.c-lane){fill:rgba(15, 23, 42, 0.22);stroke:#334155;stroke-dasharray:6,6}
-[data-native-key="native-expr"] :is(svg[data-theme="dark"]){--bg:#020617;--grid:#1e293b;--canvas-dot:rgba(148, 163, 184, 0.16);--text:#ffffff;--text-muted:#94a3b8;--text-dim:#475569;--text-faint:#7d8da1;--panel:rgba(15, 23, 42, 0.5);--panel-border:#1e293b;--lane-fill:rgba(15, 23, 42, 0.22);--lane-stroke:#334155;--arrow:#94a3b8;--arrow-emphasis:#34d399;--edge-label:#94a3b8;--mask:#0f172a;--frontend-fill:rgba(8, 51, 68, 0.4);--frontend-stroke:#22d3ee;--backend-fill:rgba(6, 78, 59, 0.4);--backend-stroke:#34d399;--database-fill:rgba(76, 29, 149, 0.4);--database-stroke:#a78bfa;--cloud-fill:rgba(120, 53, 15, 0.3);--cloud-stroke:#fbbf24;--security-fill:rgba(136, 19, 55, 0.4);--security-stroke:#fb7185;--messagebus-fill:rgba(251, 146, 60, 0.3);--messagebus-stroke:#fb923c;--external-fill:rgba(30, 41, 59, 0.5);--external-stroke:#94a3b8;--toolbar-bg:rgba(15, 23, 42, 0.8);--toolbar-border:#334155;--toolbar-text:#e2e8f0;--toolbar-hover:rgba(15, 23, 42, 0.95);--toolbar-menu-bg:#0f172a}
-[data-native-key="native-expr"] :is(svg[data-node-ui] [data-node-id] > rect:not(.c-mask)){stroke-width:1.25px}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-frontend){fill:#112f43;stroke:#1d9eb7}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-backend){fill:#142f38;stroke:#2a9e7a}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-database){fill:#232645;stroke:#7c6bc0}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-cloud){fill:#2e2d29;stroke:#b99026}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-security){fill:#2e2336;stroke:#b9586c}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-messagebus){fill:#2e272c;stroke:#b97037}
-[data-native-key="native-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-external){fill:#20293c;stroke:#6f7c90}
-[data-native-key="native-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-region){fill:rgba(251, 191, 36, 0.03);stroke:#877640;stroke-dasharray:none}
-[data-native-key="native-expr"] :is(svg[data-node-ui] .c-security-group){stroke:#a75d71}
-[data-native-key="native-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-security-group){stroke-dasharray:4 3}
-[data-native-key="native-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-lane){stroke:#334155;stroke-dasharray:none}
-[data-native-key="native-expr"] :is(svg[data-node-ui] [data-graph-role="structural-frame-label-mask"]){rx:5px;fill:#272829;stroke:#695728;stroke-width:.8px}
-[data-native-key="native-expr"] :is(svg[data-node-ui] [data-composition-frame-kind="security-group"] > [data-graph-role="structural-frame-label-mask"]){fill:#241f32;stroke:#64374b}
-[data-native-key="native-expr"] :is(svg[data-node-ui] .phase-rule){opacity:.5;stroke-dasharray:none}
-[data-native-key="native-expr"] :is(svg[data-node-ui] .phase-chip){stroke:#334155;stroke-width:.75px}
-[data-native-key="native-expr"] :is(svg[data-node-ui] g[data-edge-from] > rect.c-mask){rx:7px;stroke:#334155;stroke-width:.75px}
-[data-native-key="native-expr"] :is(svg[data-node-ui][data-preset="blueprint"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:2px}
-[data-native-key="native-expr"] :is(svg[data-node-ui][data-preset="editorial"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:3px}
+[data-native-key="native-dark-bindings"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-dark-bindings"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-dark-bindings"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
+[data-native-key="native-dark-bindings"] :is(svg .archify-drilldown-mark-disc){fill:rgba(50, 199, 146, 0.94);stroke:#34917a;stroke-width:1}
+[data-native-key="native-dark-bindings"] :is(svg .archify-drilldown-mark-arrow){stroke:rgba(15, 23, 42, 0.5);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-bindings"] :is(.c-grid){stroke:#1e293b;fill:none}
+[data-native-key="native-dark-bindings"] :is(.c-mask){fill:#0f172a;stroke:none}
+[data-native-key="native-dark-bindings"] :is(.c-lane-rule){stroke:#334155;fill:none;opacity:0.7}
+[data-native-key="native-dark-bindings"] :is(.c-lane-wash){fill:rgba(15, 23, 42, 0.22);stroke:none}
+[data-native-key="native-dark-bindings"] :is(.c-frontend){fill:rgba(8, 51, 68, 0.4);stroke:#22d3ee}
+[data-native-key="native-dark-bindings"] :is(.c-backend){fill:rgba(6, 78, 59, 0.4);stroke:#34d399}
+[data-native-key="native-dark-bindings"] :is(.c-database){fill:rgba(76, 29, 149, 0.4);stroke:#a78bfa}
+[data-native-key="native-dark-bindings"] :is(.c-cloud){fill:rgba(120, 53, 15, 0.3);stroke:#fbbf24}
+[data-native-key="native-dark-bindings"] :is(.c-security){fill:rgba(136, 19, 55, 0.4);stroke:#fb7185}
+[data-native-key="native-dark-bindings"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.3);stroke:#fb923c}
+[data-native-key="native-dark-bindings"] :is(.c-external){fill:rgba(30, 41, 59, 0.5);stroke:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(.t-primary){fill:#ffffff}
+[data-native-key="native-dark-bindings"] :is(.t-muted){fill:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(.t-dim){fill:#475569}
+[data-native-key="native-dark-bindings"] :is(.t-frontend){fill:#22d3ee}
+[data-native-key="native-dark-bindings"] :is(.t-backend){fill:#34d399}
+[data-native-key="native-dark-bindings"] :is(.t-database){fill:#a78bfa}
+[data-native-key="native-dark-bindings"] :is(.t-cloud){fill:#fbbf24}
+[data-native-key="native-dark-bindings"] :is(.t-security){fill:#fb7185}
+[data-native-key="native-dark-bindings"] :is(.t-messagebus){fill:#fb923c}
+[data-native-key="native-dark-bindings"] :is(.t-external){fill:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(.t-edge-default){fill:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(.t-edge-emphasis){fill:#34d399}
+[data-native-key="native-dark-bindings"] :is(.t-edge-security){fill:#fb7185}
+[data-native-key="native-dark-bindings"] :is(.t-edge-dashed){fill:#a78bfa}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35))}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-wash){fill:rgba(255, 255, 255, 0.026)}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:#1e293b;opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:rgba(148, 163, 184, 0.16)}
+[data-native-key="native-dark-bindings"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
+[data-native-key="native-dark-bindings"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-bindings"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
+[data-native-key="native-dark-bindings"] :is(svg .s-frontend){color:#22d3ee}
+[data-native-key="native-dark-bindings"] :is(svg .s-backend){color:#34d399}
+[data-native-key="native-dark-bindings"] :is(svg .s-database){color:#a78bfa}
+[data-native-key="native-dark-bindings"] :is(svg .s-cloud){color:#fbbf24}
+[data-native-key="native-dark-bindings"] :is(svg .s-security){color:#fb7185}
+[data-native-key="native-dark-bindings"] :is(svg .s-messagebus){color:#fb923c}
+[data-native-key="native-dark-bindings"] :is(svg .s-external){color:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
+[data-native-key="native-dark-bindings"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-bindings"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-bindings"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
+[data-native-key="native-dark-bindings"] :is(.a-default){stroke:#94a3b8;fill:none}
+[data-native-key="native-dark-bindings"] :is(.a-emphasis){stroke:#34d399;fill:none}
+[data-native-key="native-dark-bindings"] :is(.a-security){stroke:#fb7185;fill:none;stroke-dasharray:5,5}
+[data-native-key="native-dark-bindings"] :is(.a-dashed){stroke:#a78bfa;fill:none;stroke-dasharray:4,4}
+[data-native-key="native-dark-bindings"] :is(.m-default){fill:#94a3b8}
+[data-native-key="native-dark-bindings"] :is(.m-emphasis){fill:#34d399}
+[data-native-key="native-dark-bindings"] :is(.m-security){fill:#fb7185}
+[data-native-key="native-dark-bindings"] :is(.m-dashed){fill:#a78bfa}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-count-badge] rect){fill:#0f172a;stroke:#1e293b;stroke-width:1;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-count-badge] text){fill:#94a3b8;font-size:8px;font-weight:700;text-anchor:middle}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#a78bfa;stroke-width:2.2;stroke-dasharray:3 2}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#a78bfa;stroke-width:1.8}
+[data-native-key="native-dark-bindings"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #a78bfa)}
+[data-native-key="native-dark-bindings"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-bindings"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
+[data-native-key="native-dark-bindings"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #a78bfa)}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #a78bfa)}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #34d399)}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(167, 139, 250, 0.72))}
+[data-native-key="native-dark-bindings"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(52, 211, 153, 0.72))}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #34d399)}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #a78bfa)}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
+[data-native-key="native-dark-bindings"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-route-match]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #fb7185)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #34d399)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #34d399)}
+[data-native-key="native-dark-bindings"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #34d399)}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(255, 255, 255, 0.18))}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
+[data-native-key="native-dark-bindings"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #22d3ee)}
+[data-native-key="native-dark-bindings"] :is(.c-security-group){fill:transparent;stroke:#fb7185;stroke-dasharray:4,4}
+[data-native-key="native-dark-bindings"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#fbbf24;stroke-dasharray:8,4}
+[data-native-key="native-dark-bindings"] :is(.c-lane){fill:rgba(15, 23, 42, 0.22);stroke:#334155;stroke-dasharray:6,6}
+[data-native-key="native-dark-bindings"] :is(svg[data-theme="dark"]){--bg:#020617;--grid:#1e293b;--canvas-dot:rgba(148, 163, 184, 0.16);--text:#ffffff;--text-muted:#94a3b8;--text-dim:#475569;--text-faint:#7d8da1;--panel:rgba(15, 23, 42, 0.5);--panel-border:#1e293b;--lane-fill:rgba(15, 23, 42, 0.22);--lane-stroke:#334155;--arrow:#94a3b8;--arrow-emphasis:#34d399;--edge-label:#94a3b8;--mask:#0f172a;--frontend-fill:rgba(8, 51, 68, 0.4);--frontend-stroke:#22d3ee;--backend-fill:rgba(6, 78, 59, 0.4);--backend-stroke:#34d399;--database-fill:rgba(76, 29, 149, 0.4);--database-stroke:#a78bfa;--cloud-fill:rgba(120, 53, 15, 0.3);--cloud-stroke:#fbbf24;--security-fill:rgba(136, 19, 55, 0.4);--security-stroke:#fb7185;--messagebus-fill:rgba(251, 146, 60, 0.3);--messagebus-stroke:#fb923c;--external-fill:rgba(30, 41, 59, 0.5);--external-stroke:#94a3b8;--toolbar-bg:rgba(15, 23, 42, 0.8);--toolbar-border:#334155;--toolbar-text:#e2e8f0;--toolbar-hover:rgba(15, 23, 42, 0.95);--toolbar-menu-bg:#0f172a}
+[data-native-key="native-dark-expr"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-dark-expr"] :is(svg){font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace}
+[data-native-key="native-dark-expr"] :is(svg a.archify-drilldown-link){text-decoration:none;color:inherit}
+[data-native-key="native-dark-expr"] :is(svg .archify-drilldown-mark-disc){fill:rgba(50, 199, 146, 0.94);stroke:#34917a;stroke-width:1}
+[data-native-key="native-dark-expr"] :is(svg .archify-drilldown-mark-arrow){stroke:rgba(15, 23, 42, 0.5);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-expr"] :is(.c-grid){stroke:#1e293b;fill:none}
+[data-native-key="native-dark-expr"] :is(.c-mask){fill:#0f172a;stroke:none}
+[data-native-key="native-dark-expr"] :is(.c-lane-rule){stroke:#334155;fill:none;opacity:0.7}
+[data-native-key="native-dark-expr"] :is(.c-lane-wash){fill:rgba(15, 23, 42, 0.22);stroke:none}
+[data-native-key="native-dark-expr"] :is(.c-frontend){fill:rgba(8, 51, 68, 0.4);stroke:#22d3ee}
+[data-native-key="native-dark-expr"] :is(.c-backend){fill:rgba(6, 78, 59, 0.4);stroke:#34d399}
+[data-native-key="native-dark-expr"] :is(.c-database){fill:rgba(76, 29, 149, 0.4);stroke:#a78bfa}
+[data-native-key="native-dark-expr"] :is(.c-cloud){fill:rgba(120, 53, 15, 0.3);stroke:#fbbf24}
+[data-native-key="native-dark-expr"] :is(.c-security){fill:rgba(136, 19, 55, 0.4);stroke:#fb7185}
+[data-native-key="native-dark-expr"] :is(.c-messagebus){fill:rgba(251, 146, 60, 0.3);stroke:#fb923c}
+[data-native-key="native-dark-expr"] :is(.c-external){fill:rgba(30, 41, 59, 0.5);stroke:#94a3b8}
+[data-native-key="native-dark-expr"] :is(.t-primary){fill:#ffffff}
+[data-native-key="native-dark-expr"] :is(.t-muted){fill:#94a3b8}
+[data-native-key="native-dark-expr"] :is(.t-dim){fill:#475569}
+[data-native-key="native-dark-expr"] :is(.t-frontend){fill:#22d3ee}
+[data-native-key="native-dark-expr"] :is(.t-backend){fill:#34d399}
+[data-native-key="native-dark-expr"] :is(.t-database){fill:#a78bfa}
+[data-native-key="native-dark-expr"] :is(.t-cloud){fill:#fbbf24}
+[data-native-key="native-dark-expr"] :is(.t-security){fill:#fb7185}
+[data-native-key="native-dark-expr"] :is(.t-messagebus){fill:#fb923c}
+[data-native-key="native-dark-expr"] :is(.t-external){fill:#94a3b8}
+[data-native-key="native-dark-expr"] :is(.t-edge-default){fill:#94a3b8}
+[data-native-key="native-dark-expr"] :is(.t-edge-emphasis){fill:#34d399}
+[data-native-key="native-dark-expr"] :is(.t-edge-security){fill:#fb7185}
+[data-native-key="native-dark-expr"] :is(.t-edge-dashed){fill:#a78bfa}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"] .c-grid){stroke:transparent}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"][data-theme="dark"] [data-node-id] > rect:not(.c-mask)){filter:drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35))}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"][data-theme="dark"] [data-edge-from]){stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-wash){fill:rgba(255, 255, 255, 0.026)}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:#1e293b;opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="classic"][data-theme="dark"] .c-lane-rule){stroke:rgba(148, 163, 184, 0.16)}
+[data-native-key="native-dark-expr"] :is(svg .semantic-sigil){fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:0.76}
+[data-native-key="native-dark-expr"] :is(svg .semantic-sigil > *){vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-expr"] :is(svg .semantic-sigil .sigil-fill){fill:currentColor;stroke:none}
+[data-native-key="native-dark-expr"] :is(svg .s-frontend){color:#22d3ee}
+[data-native-key="native-dark-expr"] :is(svg .s-backend){color:#34d399}
+[data-native-key="native-dark-expr"] :is(svg .s-database){color:#a78bfa}
+[data-native-key="native-dark-expr"] :is(svg .s-cloud){color:#fbbf24}
+[data-native-key="native-dark-expr"] :is(svg .s-security){color:#fb7185}
+[data-native-key="native-dark-expr"] :is(svg .s-messagebus){color:#fb923c}
+[data-native-key="native-dark-expr"] :is(svg .s-external){color:#94a3b8}
+[data-native-key="native-dark-expr"] :is(svg .brand-mark-badge){fill:#fff;stroke:none}
+[data-native-key="native-dark-expr"] :is(svg .brand-mark-frame){fill:none;stroke:#cbd5e1;stroke-width:0.8;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-expr"] :is(svg .brand-mark-fallback){fill:none;stroke:#475569;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round}
+[data-native-key="native-dark-expr"] :is(svg [data-detail-anchor]){transform-box:fill-box;transform-origin:center}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-focus-match][data-detail], svg[data-focus-active] [data-focus-match] [data-detail], svg[data-reach-active] [data-reach-match][data-detail], svg[data-reach-active] [data-reach-match] [data-detail], svg[data-lens-active] [data-lens-match][data-detail], svg[data-lens-active] [data-lens-match] [data-detail], svg[data-legend-preview-active] [data-legend-preview-match][data-detail], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail], svg[data-intent-trace-active] [data-intent-trace-match][data-detail], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail], svg[data-route-active] [data-route-match][data-detail], svg[data-route-active] [data-route-match] [data-detail], svg[data-relationship-preview-active] [data-relationship-preview][data-detail], svg[data-relationship-preview-active] [data-relationship-preview] [data-detail]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-focus-match] [data-detail-anchor], svg[data-reach-active] [data-reach-match] [data-detail-anchor], svg[data-lens-active] [data-lens-match] [data-detail-anchor], svg[data-legend-preview-active] [data-legend-preview-match] [data-detail-anchor], svg[data-intent-trace-active] [data-intent-trace-match] [data-detail-anchor], svg[data-route-active] [data-route-match] [data-detail-anchor]){transform:none}
+[data-native-key="native-dark-expr"] :is(.a-default){stroke:#94a3b8;fill:none}
+[data-native-key="native-dark-expr"] :is(.a-emphasis){stroke:#34d399;fill:none}
+[data-native-key="native-dark-expr"] :is(.a-security){stroke:#fb7185;fill:none;stroke-dasharray:5,5}
+[data-native-key="native-dark-expr"] :is(.a-dashed){stroke:#a78bfa;fill:none;stroke-dasharray:4,4}
+[data-native-key="native-dark-expr"] :is(.m-default){fill:#94a3b8}
+[data-native-key="native-dark-expr"] :is(.m-emphasis){fill:#34d399}
+[data-native-key="native-dark-expr"] :is(.m-security){fill:#fb7185}
+[data-native-key="native-dark-expr"] :is(.m-dashed){fill:#a78bfa}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-hit]){fill:transparent;stroke:transparent;stroke-width:1.4;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-count-badge] rect){fill:#0f172a;stroke:#1e293b;stroke-width:1;vector-effect:non-scaling-stroke}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-count-badge] text){fill:#94a3b8;font-size:8px;font-weight:700;text-anchor:middle}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-hit]){stroke:#a78bfa;stroke-width:2.2;stroke-dasharray:3 2}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-kind][data-legend-selected] [data-legend-count-badge] rect){stroke:#a78bfa;stroke-width:1.8}
+[data-native-key="native-dark-expr"] :is(svg [data-legend-kind][data-legend-zero]){opacity:0.44}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-node-id], svg[data-legend-preview-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-peer]){opacity:0.62}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-legend-preview-selected]){filter:drop-shadow(0 0 8px #a78bfa)}
+[data-native-key="native-dark-expr"] :is(svg[data-lens-active] [data-node-id], svg[data-lens-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-expr"] :is(svg[data-lens-active] [data-lens-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-lens-active] [data-lens-peer]){opacity:0.62}
+[data-native-key="native-dark-expr"] :is(svg[data-lens-active] [data-lens-selected]){filter:drop-shadow(0 0 10px #a78bfa)}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-match]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-legend-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-legend-preview-peer]) > [data-graph-role="automatic-crossover-underlay"], svg[data-lens-active] [data-graph-role="automatic-crossover"]:has(> [data-lens-peer]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-node-id], svg[data-focus-active] [data-edge-from]){opacity:0.13}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.13}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-focus-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active] [data-node-id], svg[data-reach-active] [data-edge-from]){opacity:0.09}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.09}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active] [data-reach-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active] [data-graph-role="automatic-crossover"]:has(> [data-reach-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active="upstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #a78bfa)}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active="downstream"] [data-reach-origin]){filter:drop-shadow(0 0 11px #34d399)}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active="upstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(167, 139, 250, 0.72))}
+[data-native-key="native-dark-expr"] :is(svg[data-reach-active="downstream"] [data-edge-from][data-reach-match]){filter:drop-shadow(0 0 4px rgba(52, 211, 153, 0.72))}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="blueprint"][data-reach-active] [data-reach-origin], svg[data-preset="blueprint"][data-reach-active] [data-edge-from][data-reach-match]){filter:none}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-direct-active] [data-node-id], svg[data-relationship-direct-active] [data-edge-from]){opacity:0.16}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.16}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-direct-active] [data-relationship-preview], svg[data-relationship-direct-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-direct-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-focus-match]){opacity:0.18}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-focus-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.18}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview-node]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-graph-role="automatic-crossover"]:has(> [data-relationship-preview]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview]){filter:drop-shadow(0 0 5px #34d399)}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview] path, svg[data-relationship-preview-active] path[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] line, svg[data-relationship-preview-active] line[data-relationship-preview], svg[data-relationship-preview-active] [data-relationship-preview] polyline, svg[data-relationship-preview-active] polyline[data-relationship-preview]){stroke-width:2.75}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview-source]){filter:drop-shadow(0 0 7px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 7px #a78bfa)}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-node-id]){fill-opacity:0.2;stroke-opacity:0.2}
+[data-native-key="native-dark-expr"] :is(svg [data-node-id] > .c-mask){fill-opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-node-id][data-intent-trace-match]){fill-opacity:1;stroke-opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-edge-from]){opacity:0.2}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.2}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-lifecycle-rail]){opacity:0}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-intent-trace-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-graph-role="automatic-crossover"]:has(> [data-intent-trace-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-intent-trace-active] [data-intent-trace-selected]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-picking="target"] [data-node-id]){opacity:0.24}
+[data-native-key="native-dark-expr"] :is(svg[data-route-picking="target"] [data-route-candidate], svg[data-route-picking="target"] [data-route-start]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-route-picking] [data-route-start]){filter:drop-shadow(0 0 10px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-node-id], svg[data-route-active] [data-edge-from]){opacity:0.11}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"] > [data-graph-role="automatic-crossover-underlay"]){opacity:0.11}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-route-match]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-graph-role="automatic-crossover"]:has(> [data-route-match]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-route-start]){filter:drop-shadow(0 0 11px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-route-end]){filter:drop-shadow(0 0 11px #fb7185)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-active] [data-route-step]:not([data-route-start]):not([data-route-end])){filter:drop-shadow(0 0 7px #34d399)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="past"]){opacity:0.62}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="future"]){opacity:0.34}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-route-match][data-route-journey-state="current"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="past"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.62}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="future"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:0.34}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-graph-role="automatic-crossover"]:has(> [data-route-match][data-route-journey-state="current"]) > [data-graph-role="automatic-crossover-underlay"]){opacity:1}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-node-id][data-route-journey-current]){filter:drop-shadow(0 0 10px #34d399)}
+[data-native-key="native-dark-expr"] :is(svg[data-route-journey] [data-edge-from][data-route-journey-current]){opacity:1;filter:drop-shadow(0 0 6px #34d399)}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="editorial"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 2px 2px rgba(255, 255, 255, 0.18))}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="blueprint"][data-focus-active] [data-focus-selected]){filter:drop-shadow(0 0 3px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="blueprint"][data-focus-active][data-reach-active] [data-focus-selected][data-reach-origin]){filter:none}
+[data-native-key="native-dark-expr"] :is(svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-source], svg[data-preset="blueprint"][data-relationship-preview-active] [data-relationship-preview-target]){filter:drop-shadow(0 0 3px #22d3ee)}
+[data-native-key="native-dark-expr"] :is(.c-security-group){fill:transparent;stroke:#fb7185;stroke-dasharray:4,4}
+[data-native-key="native-dark-expr"] :is(.c-region){fill:rgba(251, 191, 36, 0.05);stroke:#fbbf24;stroke-dasharray:8,4}
+[data-native-key="native-dark-expr"] :is(.c-lane){fill:rgba(15, 23, 42, 0.22);stroke:#334155;stroke-dasharray:6,6}
+[data-native-key="native-dark-expr"] :is(svg[data-theme="dark"]){--bg:#020617;--grid:#1e293b;--canvas-dot:rgba(148, 163, 184, 0.16);--text:#ffffff;--text-muted:#94a3b8;--text-dim:#475569;--text-faint:#7d8da1;--panel:rgba(15, 23, 42, 0.5);--panel-border:#1e293b;--lane-fill:rgba(15, 23, 42, 0.22);--lane-stroke:#334155;--arrow:#94a3b8;--arrow-emphasis:#34d399;--edge-label:#94a3b8;--mask:#0f172a;--frontend-fill:rgba(8, 51, 68, 0.4);--frontend-stroke:#22d3ee;--backend-fill:rgba(6, 78, 59, 0.4);--backend-stroke:#34d399;--database-fill:rgba(76, 29, 149, 0.4);--database-stroke:#a78bfa;--cloud-fill:rgba(120, 53, 15, 0.3);--cloud-stroke:#fbbf24;--security-fill:rgba(136, 19, 55, 0.4);--security-stroke:#fb7185;--messagebus-fill:rgba(251, 146, 60, 0.3);--messagebus-stroke:#fb923c;--external-fill:rgba(30, 41, 59, 0.5);--external-stroke:#94a3b8;--toolbar-bg:rgba(15, 23, 42, 0.8);--toolbar-border:#334155;--toolbar-text:#e2e8f0;--toolbar-hover:rgba(15, 23, 42, 0.95);--toolbar-menu-bg:#0f172a}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] [data-node-id] > rect:not(.c-mask)){stroke-width:1.25px}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-frontend){fill:#112f43;stroke:#1d9eb7}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-backend){fill:#142f38;stroke:#2a9e7a}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-database){fill:#232645;stroke:#7c6bc0}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-cloud){fill:#2e2d29;stroke:#b99026}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-security){fill:#2e2336;stroke:#b9586c}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-messagebus){fill:#2e272c;stroke:#b97037}
+[data-native-key="native-dark-expr"] :is(:is([data-theme="dark"] svg[data-node-ui], svg[data-node-ui][data-theme="dark"]) [data-node-id] > rect:not(.c-mask).c-external){fill:#20293c;stroke:#6f7c90}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-region){fill:rgba(251, 191, 36, 0.03);stroke:#877640;stroke-dasharray:none}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] .c-security-group){stroke:#a75d71}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-security-group){stroke-dasharray:4 3}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui]:is([data-preset="classic"], [data-preset="signal-flow"], [data-preset="editorial"]) .c-lane){stroke:#334155;stroke-dasharray:none}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] [data-graph-role="structural-frame-label-mask"]){rx:5px;fill:#272829;stroke:#695728;stroke-width:.8px}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] [data-composition-frame-kind="security-group"] > [data-graph-role="structural-frame-label-mask"]){fill:#241f32;stroke:#64374b}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] .phase-rule){opacity:.5;stroke-dasharray:none}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] .phase-chip){stroke:#334155;stroke-width:.75px}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui] g[data-edge-from] > rect.c-mask){rx:7px;stroke:#334155;stroke-width:.75px}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui][data-preset="blueprint"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:2px}
+[data-native-key="native-dark-expr"] :is(svg[data-node-ui][data-preset="editorial"] :is([data-graph-role="structural-frame-label-mask"], g[data-edge-from] > rect.c-mask, .phase-chip)){rx:3px}
 #view-bindings [data-node-id="process_exp"]{visibility:hidden}
 #view-expr [data-node-id="process_exp"]{visibility:hidden}
 #story-token-0-0{offset-path:path("M 156 157 L 259 157");offset-rotate:0deg}
@@ -458,24 +458,24 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
 #story-token-0-1{opacity:0!important;offset-distance:100%!important}
 #story-caption-0{opacity:0!important;transform:translateY(-6px)!important}
 #story-caption-1{opacity:1!important;transform:translateY(0px)!important}
-]]></style><defs><clipPath id="story-diagram-viewport" clipPathUnits="userSpaceOnUse"><rect x="18" y="112" width="924" height="432"/></clipPath></defs><rect width="960" height="560" fill="#020617"/><g data-story-layer="diagram" clip-path="url(#story-diagram-viewport)"><g id="view-bindings" class="view-stage" data-native-key="native-bindings" style="opacity:1"><g id="camera-bindings" style="transform:translate(155.258px,91.010px) scale(1.03093);transform-origin:0 0"><svg viewBox="0 0 1040 480" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-motion-choreography="stream" xmlns="http://www.w3.org/2000/svg" width="1040" height="480" data-theme="dark" data-archify-bake="static" x="0" y="0">
-        <title id="native-bindings-archify-diagram-title">Vue #2532: Binding Metadata Flow</title>
-        <desc id="native-bindings-archify-diagram-description">A data-flow diagram generated by Archify.</desc>
+]]></style><defs><clipPath id="story-diagram-viewport" clipPathUnits="userSpaceOnUse"><rect x="18" y="112" width="924" height="432"/></clipPath></defs><rect width="960" height="560" fill="#020617"/><g data-story-layer="diagram" clip-path="url(#story-diagram-viewport)"><g id="view-bindings" class="view-stage" data-native-key="native-dark-bindings" style="opacity:1"><g id="camera-bindings" style="transform:translate(155.258px,91.010px) scale(1.03093);transform-origin:0 0"><svg viewBox="0 0 1040 480" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-motion-choreography="stream" xmlns="http://www.w3.org/2000/svg" width="1040" height="480" data-theme="dark" data-archify-bake="static" x="0" y="0">
+        <title id="native-dark-bindings-archify-diagram-title">Vue #2532: Binding Metadata Flow</title>
+        <desc id="native-dark-bindings-archify-diagram-description">A data-flow diagram generated by Archify.</desc>
         
         <defs>
-          <marker id="native-bindings-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-bindings-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-default"/>
           </marker>
-          <marker id="native-bindings-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-bindings-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-emphasis"/>
           </marker>
-          <marker id="native-bindings-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-bindings-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-security"/>
           </marker>
-          <marker id="native-bindings-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-bindings-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-dashed"/>
           </marker>
-          <pattern id="native-bindings-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <pattern id="native-dark-bindings-grid" width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M 40 0 L 0 0 0 40" class="c-grid" stroke-width="0.5" data-story-edge-id="null~null" data-story-path-idx="1"/>
           </pattern>
         </defs>
@@ -494,12 +494,12 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <text x="530" y="68" class="t-dim" font-size="9" font-weight="600" text-anchor="middle">03 / Render Output</text>
 
         
-        <path data-edge-from="bindings" data-edge-to="process_exp" data-edge-label="resolve type" data-edge-key="0" data-edge-id="f_meta" data-composition-points="156,157;259,157" d="M 156 157 L 259 157" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-bindings-arrowhead-emphasis)" data-story-edge-id="f_meta" data-story-path-idx="2"/>
-        <path data-edge-from="process_exp" data-edge-to="inline_code" data-edge-label="inline=true" data-edge-key="1" data-edge-id="f_inline" data-composition-points="371,157;474,157" d="M 371 157 L 474 157" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#native-bindings-arrowhead-emphasis)" data-story-edge-id="f_inline" data-story-path-idx="3"/>
-        <path data-edge-from="process_exp" data-edge-to="normal_ctx" data-edge-label="fallback" data-edge-key="2" data-edge-id="f_normal" data-composition-points="371,157;422.5,157;422.5,271;474,271" d="M 371 157 L 422.5 157 L 422.5 271 L 474 271" class="a-default" data-animate="edge" style="--step:2" stroke-width="1.4" marker-end="url(#native-bindings-arrowhead)" data-story-edge-id="f_normal" data-story-path-idx="4"/>
+        <path data-edge-from="bindings" data-edge-to="process_exp" data-edge-label="resolve type" data-edge-key="0" data-edge-id="f_meta" data-composition-points="156,157;259,157" d="M 156 157 L 259 157" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-dark-bindings-arrowhead-emphasis)" data-story-edge-id="f_meta" data-story-path-idx="2"/>
+        <path data-edge-from="process_exp" data-edge-to="inline_code" data-edge-label="inline=true" data-edge-key="1" data-edge-id="f_inline" data-composition-points="371,157;474,157" d="M 371 157 L 474 157" class="a-emphasis" data-animate="edge" style="--step:1" stroke-width="1.8" marker-end="url(#native-dark-bindings-arrowhead-emphasis)" data-story-edge-id="f_inline" data-story-path-idx="3"/>
+        <path data-edge-from="process_exp" data-edge-to="normal_ctx" data-edge-label="fallback" data-edge-key="2" data-edge-id="f_normal" data-composition-points="371,157;422.5,157;422.5,271;474,271" d="M 371 157 L 422.5 157 L 422.5 271 L 474 271" class="a-default" data-animate="edge" style="--step:2" stroke-width="1.4" marker-end="url(#native-dark-bindings-arrowhead)" data-story-edge-id="f_normal" data-story-path-idx="4"/>
 
         
-        <g id="native-bindings-node-bindings" data-node-id="bindings" data-node-label="bindingMetadata" tabindex="0" role="button" aria-label="Focus bindingMetadata, setup / import map, 01 / Script" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="setup / import map" data-node-context="01 / Script">
+        <g id="native-dark-bindings-node-bindings" data-node-id="bindings" data-node-label="bindingMetadata" tabindex="0" role="button" aria-label="Focus bindingMetadata, setup / import map, 01 / Script" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="setup / import map" data-node-context="01 / Script">
           <title>bindingMetadata · setup / import map · 01 / Script</title>
           <rect x="44" y="128" width="112" height="58" rx="6" class="c-mask"/>
           <rect x="44" y="128" width="112" height="58" rx="6" class="c-frontend" data-animate="node" style="--step:0" stroke-width="1.5"/>
@@ -513,7 +513,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           <text data-detail="context" x="100" y="172.4" class="t-muted" font-size="7" text-anchor="middle">setup / import map</text>
         <g data-story-node-badge="" data-story-callout="accent" pointer-events="none"><rect x="77" y="119" width="73" height="18" rx="6" fill="#020617" stroke="none"/><rect x="77" y="119" width="73" height="18" rx="6" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-width="1"/><text x="113.5" y="131.5" fill="#34d399" font-size="10.5" font-weight="600" text-anchor="middle">编译期元数据</text></g></g>
 
-        <g id="native-bindings-node-process_exp" data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, template AST pass, 02 / Transform" aria-pressed="false" data-node-kind="backend" data-node-sublabel="template AST pass" data-node-context="02 / Transform">
+        <g id="native-dark-bindings-node-process_exp" data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, template AST pass, 02 / Transform" aria-pressed="false" data-node-kind="backend" data-node-sublabel="template AST pass" data-node-context="02 / Transform">
           <title>processExpression · template AST pass · 02 / Transform</title>
           <rect x="259" y="128" width="112" height="58" rx="6" class="c-mask"/>
           <rect x="259" y="128" width="112" height="58" rx="6" class="c-backend" data-animate="node" style="--step:1" stroke-width="1.5"/>
@@ -524,7 +524,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           <text data-detail="context" x="315" y="172.4" class="t-muted" font-size="7" text-anchor="middle">template AST pass</text>
         </g>
 
-        <g id="native-bindings-node-inline_code" data-node-id="inline_code" data-node-label="Inline setup()" tabindex="0" role="button" aria-label="Focus Inline setup(), _unref(foo) / bare id, 03 / Render Output" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="_unref(foo) / bare id" data-node-context="03 / Render Output">
+        <g id="native-dark-bindings-node-inline_code" data-node-id="inline_code" data-node-label="Inline setup()" tabindex="0" role="button" aria-label="Focus Inline setup(), _unref(foo) / bare id, 03 / Render Output" aria-pressed="false" data-node-kind="cloud" data-node-sublabel="_unref(foo) / bare id" data-node-context="03 / Render Output">
           <title>Inline setup() · _unref(foo) / bare id · 03 / Render Output</title>
           <rect x="474" y="128" width="112" height="58" rx="6" class="c-mask"/>
           <rect x="474" y="128" width="112" height="58" rx="6" class="c-cloud" data-animate="node" style="--step:2" stroke-width="1.5"/>
@@ -535,7 +535,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           <text data-detail="context" x="530" y="165" class="t-muted" font-size="7" text-anchor="middle">_unref(foo) / bare id</text>
         <g data-story-node-badge="" data-story-callout="added" pointer-events="none"><rect x="495" y="119" width="85" height="18" rx="6" fill="#020617" stroke="none"/><rect x="495" y="119" width="85" height="18" rx="6" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-width="1"/><text x="537.5" y="131.5" fill="#34d399" font-size="10.5" font-weight="600" text-anchor="middle">+ Inline 闭包</text></g></g>
 
-        <g id="native-bindings-node-normal_ctx" data-node-id="normal_ctx" data-node-label="Normal Mode" tabindex="0" role="button" aria-label="Focus Normal Mode, $setup.foo / _ctx.foo, 03 / Render Output" aria-pressed="false" data-node-kind="database" data-node-sublabel="$setup.foo / _ctx.foo" data-node-context="03 / Render Output">
+        <g id="native-dark-bindings-node-normal_ctx" data-node-id="normal_ctx" data-node-label="Normal Mode" tabindex="0" role="button" aria-label="Focus Normal Mode, $setup.foo / _ctx.foo, 03 / Render Output" aria-pressed="false" data-node-kind="database" data-node-sublabel="$setup.foo / _ctx.foo" data-node-context="03 / Render Output">
           <title>Normal Mode · $setup.foo / _ctx.foo · 03 / Render Output</title>
           <rect x="474" y="242" width="112" height="58" rx="6" class="c-mask"/>
           <rect x="474" y="242" width="112" height="58" rx="6" class="c-database" data-animate="node" style="--step:3" stroke-width="1.5"/>
@@ -565,7 +565,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <g data-legend="" data-legend-bridge="">
           <text x="40" y="424" class="t-primary" font-size="12" font-weight="650">Legend</text>
           <g data-legend-semantic-kind="emphasis" data-legend-x="40" data-legend-baseline="444" data-legend-width="118">
-            <path d="M 40 441 L 74 441" class="a-emphasis" stroke-width="1.8" marker-end="url(#native-bindings-arrowhead-emphasis)" data-story-edge-id="null~null" data-story-path-idx="9"/>
+            <path d="M 40 441 L 74 441" class="a-emphasis" stroke-width="1.8" marker-end="url(#native-dark-bindings-arrowhead-emphasis)" data-story-edge-id="null~null" data-story-path-idx="9"/>
             <text x="83" y="444" class="t-muted" font-size="10" font-weight="500">primary data</text>
           </g>
           <g data-legend-semantic-kind="database" data-legend-kind="database" data-legend-label="data store" data-legend-x="180" data-legend-baseline="444" data-legend-width="105">
@@ -573,28 +573,28 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
             <text x="202" y="444" class="t-muted" font-size="10" font-weight="500">data store</text>
           </g>
           <g data-legend-semantic-kind="default" data-legend-x="307" data-legend-baseline="444" data-legend-width="99">
-            <path d="M 307 441 L 341 441" class="a-default" stroke-width="1.4" marker-end="url(#native-bindings-arrowhead)" data-story-edge-id="null~null" data-story-path-idx="10"/>
+            <path d="M 307 441 L 341 441" class="a-default" stroke-width="1.4" marker-end="url(#native-dark-bindings-arrowhead)" data-story-edge-id="null~null" data-story-path-idx="10"/>
             <text x="350" y="444" class="t-muted" font-size="10" font-weight="500">data flow</text>
           </g>
         </g>
-      </svg><g data-story-tokens=""><circle id="story-token-0-0" data-story-token="" cx="0" cy="0" r="5" fill="#34d399" stroke="#020617" stroke-width="2" style="opacity:0"/><circle id="story-token-0-1" data-story-token="" cx="0" cy="0" r="5" fill="#34d399" stroke="#020617" stroke-width="2" style="opacity:0"/></g></g></g><g id="view-expr" class="view-stage" data-native-key="native-expr" style="opacity:0"><g id="camera-expr" style="transform:translate(30.000px,52.500px) scale(1.50000);transform-origin:0 0"><svg viewBox="0 0 600 260" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" xmlns="http://www.w3.org/2000/svg" width="600" height="260" data-theme="dark" data-archify-bake="static" x="0" y="0">
-        <title id="native-expr-archify-diagram-title">Vue #2532: processExpression &amp; Nested prefix()</title>
-        <desc id="native-expr-archify-diagram-description">An architecture diagram generated by Archify.</desc>
+      </svg><g data-story-tokens=""><circle id="story-token-0-0" data-story-token="" cx="0" cy="0" r="5" fill="#34d399" stroke="#020617" stroke-width="2" style="opacity:0"/><circle id="story-token-0-1" data-story-token="" cx="0" cy="0" r="5" fill="#34d399" stroke="#020617" stroke-width="2" style="opacity:0"/></g></g></g><g id="view-expr" class="view-stage" data-native-key="native-dark-expr" style="opacity:0"><g id="camera-expr" style="transform:translate(30.000px,52.500px) scale(1.50000);transform-origin:0 0"><svg viewBox="0 0 600 260" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase" data-node-ui="" data-reader-fit="intrinsic-height" data-reader-min-text="7.5" data-reader-primary-text="14" xmlns="http://www.w3.org/2000/svg" width="600" height="260" data-theme="dark" data-archify-bake="static" x="0" y="0">
+        <title id="native-dark-expr-archify-diagram-title">Vue #2532: processExpression &amp; Nested prefix()</title>
+        <desc id="native-dark-expr-archify-diagram-description">An architecture diagram generated by Archify.</desc>
         
         <defs>
-          <marker id="native-expr-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-expr-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-default"/>
           </marker>
-          <marker id="native-expr-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-expr-arrowhead-emphasis" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-emphasis"/>
           </marker>
-          <marker id="native-expr-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-expr-arrowhead-security" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-security"/>
           </marker>
-          <marker id="native-expr-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+          <marker id="native-dark-expr-arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
             <polygon points="0 0, 10 3.5, 0 7" class="m-dashed"/>
           </marker>
-          <pattern id="native-expr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <pattern id="native-dark-expr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M 40 0 L 0 0 0 40" class="c-grid" stroke-width="0.5" data-story-edge-id="null~null" data-story-path-idx="1"/>
           </pattern>
         </defs>
@@ -609,11 +609,11 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         
         <g data-graph-role="automatic-crossover" style="--step:0" data-story-edge-wrap="null~null">
           <path data-graph-role="automatic-crossover-underlay" d="M 260 156 L 340 156" fill="none" stroke="#0f172a" stroke-width="5.8" stroke-linecap="round" stroke-linejoin="round" pointer-events="none" data-story-edge-id="null~null" data-story-path-idx="2"/>
-          <path data-edge-from="process_exp" data-edge-to="prefix_fn" data-edge-label="per identifier" data-edge-key="0" data-edge-id="c_call" data-composition-points="260,156;340,156" data-composition-crossover="halo" data-composition-independent="true" d="M 260 156 L 340 156" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-expr-arrowhead-emphasis)" data-story-edge-id="c_call" data-story-path-idx="3"/>
+          <path data-edge-from="process_exp" data-edge-to="prefix_fn" data-edge-label="per identifier" data-edge-key="0" data-edge-id="c_call" data-composition-points="260,156;340,156" data-composition-crossover="halo" data-composition-independent="true" d="M 260 156 L 340 156" class="a-emphasis" data-animate="edge" style="--step:0" stroke-width="1.8" marker-end="url(#native-dark-expr-arrowhead-emphasis)" data-story-edge-id="c_call" data-story-path-idx="3"/>
         </g>
 
         
-        <g id="native-expr-node-process_exp" data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, outer AST walker (cc 22 → 22), Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="outer AST walker (cc 22 → 22)" data-node-context="Architecture component">
+        <g id="native-dark-expr-node-process_exp" data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, outer AST walker (cc 22 → 22), Architecture component" aria-pressed="false" data-node-kind="backend" data-node-sublabel="outer AST walker (cc 22 → 22)" data-node-context="Architecture component">
           <title>processExpression · outer AST walker (cc 22 → 22) · Architecture component</title>
           <rect x="40" y="120" width="220" height="72" rx="8" class="c-mask"/>
           <rect x="40" y="120" width="220" height="72" rx="8" class="c-backend" data-animate="node" style="--step:0" stroke-width="1.5"/>
@@ -624,7 +624,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
         <text data-detail="context" x="150" y="170" class="t-muted" font-size="9" text-anchor="middle">outer AST walker (cc 22 → 22)</text>
         <g data-story-node-badge="" data-story-callout="neutral" pointer-events="none"><rect x="194" y="111" width="60" height="18" rx="6" fill="#020617" stroke="none"/><rect x="194" y="111" width="60" height="18" rx="6" fill="#94a3b8" fill-opacity="0.14" stroke="#94a3b8" stroke-width="1"/><text x="224" y="123.5" fill="#94a3b8" font-size="10.5" font-weight="600" text-anchor="middle">cc 22→22</text></g></g>
 
-        <g id="native-expr-node-prefix_fn" data-node-id="prefix_fn" data-node-label="prefix(raw)" tabindex="0" role="button" aria-label="Focus prefix(raw), nested helper (inline branches), Architecture component" aria-pressed="false" data-node-kind="security" data-node-sublabel="nested helper (inline branches)" data-node-context="Architecture component">
+        <g id="native-dark-expr-node-prefix_fn" data-node-id="prefix_fn" data-node-label="prefix(raw)" tabindex="0" role="button" aria-label="Focus prefix(raw), nested helper (inline branches), Architecture component" aria-pressed="false" data-node-kind="security" data-node-sublabel="nested helper (inline branches)" data-node-context="Architecture component">
           <title>prefix(raw) · nested helper (inline branches) · Architecture component</title>
           <rect x="340" y="120" width="220" height="72" rx="8" class="c-mask"/>
           <rect x="340" y="120" width="220" height="72" rx="8" class="c-security" data-animate="node" style="--step:1" stroke-width="1.5"/>
@@ -634,7 +634,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           </g>
           <text data-node-label="" data-detail-anchor="" x="450" y="154" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">prefix(raw)</text>
         <text data-detail="context" x="450" y="170" class="t-muted" font-size="9" text-anchor="middle">nested helper (inline branches)</text>
-        <g data-story-node-badge="" data-story-callout="removed" pointer-events="none"><rect x="447" y="111" width="107" height="18" rx="6" fill="#020617" stroke="none"/><rect x="447" y="111" width="107" height="18" rx="6" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-width="1"/><text x="500.5" y="123.5" fill="#fb7185" font-size="10.5" font-weight="600" text-anchor="middle">cc 2→6 · 嵌套 0→2</text></g><g id="story-measure-expr-prefix_fn-0-before" data-story-metric=""><text x="450" y="216" font-size="11" fill="#94a3b8" font-weight="500" text-anchor="middle">Cyclomatic Complexity</text><text x="450" y="240" font-size="20" fill="#ffffff" font-weight="600" text-anchor="middle">2</text></g><g id="story-measure-expr-prefix_fn-0-after" data-story-metric="" style="opacity:0"><text x="450" y="216" font-size="11" fill="#94a3b8" font-weight="500" text-anchor="middle">Cyclomatic Complexity</text><text x="450" y="240" font-size="20" fill="#34d399" font-weight="650" text-anchor="middle">2 → 6</text></g></g>
+        <g data-story-node-badge="" data-story-callout="modified" pointer-events="none"><rect x="447" y="111" width="107" height="18" rx="6" fill="#020617" stroke="none"/><rect x="447" y="111" width="107" height="18" rx="6" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-width="1"/><text x="500.5" y="123.5" fill="#fbbf24" font-size="10.5" font-weight="600" text-anchor="middle">cc 2→6 · 嵌套 0→2</text></g><g id="story-measure-expr-prefix_fn-0-before" data-story-metric=""><text x="450" y="216" font-size="11" fill="#94a3b8" font-weight="500" text-anchor="middle">Cyclomatic Complexity</text><text x="450" y="240" font-size="20" fill="#ffffff" font-weight="600" text-anchor="middle">2</text></g><g id="story-measure-expr-prefix_fn-0-after" data-story-metric="" style="opacity:0"><text x="450" y="216" font-size="11" fill="#94a3b8" font-weight="500" text-anchor="middle">Cyclomatic Complexity</text><text x="450" y="240" font-size="20" fill="#34d399" font-weight="650" text-anchor="middle">2 → 6</text></g></g>
 
         
         <g data-detail="context" data-edge-from="process_exp" data-edge-to="prefix_fn" data-edge-label="per identifier" data-edge-key="0" data-edge-id="c_call" data-story-edge-id="c_call">
@@ -657,7 +657,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
             <text x="171" y="244" class="t-muted" font-size="10" font-weight="500">Security</text>
           </g>
         </g>
-      </svg></g></g><g data-native-key="native-bindings"><g id="story-shared-process_exp" class="story-shared-layer" style="opacity:1;transform:translate(155.258px,91.010px) scale(1.03093);transform-origin:0 0"><g data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, template AST pass, 02 / Transform" aria-pressed="false" data-node-kind="backend" data-node-sublabel="template AST pass" data-node-context="02 / Transform">
+      </svg></g></g><g data-native-key="native-dark-bindings"><g id="story-shared-process_exp" class="story-shared-layer" style="opacity:1;transform:translate(155.258px,91.010px) scale(1.03093);transform-origin:0 0"><g data-node-id="process_exp" data-node-label="processExpression" tabindex="0" role="button" aria-label="Focus processExpression, template AST pass, 02 / Transform" aria-pressed="false" data-node-kind="backend" data-node-sublabel="template AST pass" data-node-context="02 / Transform">
           <title>processExpression · template AST pass · 02 / Transform</title>
           <rect x="259" y="128" width="112" height="58" rx="6" class="c-mask"/>
           <rect x="259" y="128" width="112" height="58" rx="6" class="c-backend" data-animate="node" style="--step:1" stroke-width="1.5"/>
@@ -666,7 +666,7 @@ svg{font-family:'JetBrains Mono', system-ui, -apple-system, 'Segoe UI', 'PingFan
           </g>
           <text data-node-label="" data-detail-anchor="" x="315" y="159" class="t-primary" font-size="10" font-weight="600" text-anchor="middle" data-story-shared-old-label="">processExpression</text>
           <text data-detail="context" x="315" y="172.4" class="t-muted" font-size="7" text-anchor="middle">template AST pass</text>
-        <text x="315" y="159" font-size="10" fill="#ffffff" font-weight="600" data-node-label="" id="story-shared-label-process_exp" text-anchor="middle" style="opacity:0">processExpression</text><text x="315" y="172.4" font-size="7" fill="#94a3b8" font-weight="400" id="story-shared-sub-process_exp" text-anchor="middle" style="opacity:0">cc 22 → 22 (不变)</text><g data-native-key="native-expr"><g id="story-shared-badge-process_exp" transform="translate(259 128) scale(0.50909) translate(-40 -120)" style="opacity:0"><g data-story-node-badge="" data-story-callout="neutral" pointer-events="none"><rect x="194" y="111" width="60" height="18" rx="6" fill="#020617" stroke="none"/><rect x="194" y="111" width="60" height="18" rx="6" fill="#94a3b8" fill-opacity="0.14" stroke="#94a3b8" stroke-width="1"/><text x="224" y="123.5" fill="#94a3b8" font-size="10.5" font-weight="600" text-anchor="middle">cc 22→22</text></g></g></g></g></g></g><g id="story-source-detail" class="story-source-detail" style="opacity:0"><line x1="506" x2="506" y1="125" y2="528" stroke="#334155" stroke-width="1"/><text x="530" y="144" font-size="15" fill="#ffffff" font-weight="600">transformExpression.ts · prefix()</text><text x="530" y="169" font-size="11.5" fill="#94a3b8">nested prefix() 复杂度 2→6，最大嵌套 0→2</text><text x="530" y="206" font-size="10.5" fill="#94a3b8">101</text><text x="564" y="206" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  const { inline, bindingMetadata } = context</text><text x="530" y="228" font-size="10.5" fill="#94a3b8">102</text><text x="564" y="228" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  const prefix = (raw: string) =&gt; {</text><text x="530" y="250" font-size="10.5" fill="#94a3b8">103</text><text x="564" y="250" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    const type = hasOwn(bindingMetadata, raw) &amp;&amp; </text><text x="564" y="272" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      bindingMetadata[raw]</text><rect id="story-source-hl-4" x="559" y="279" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="294" font-size="10.5" fill="#94a3b8">104</text><text x="564" y="294" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    if (inline) {</text><rect id="story-source-hl-5" x="559" y="301" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="316" font-size="10.5" fill="#94a3b8">106</text><text x="564" y="316" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      if (type === &#39;setup&#39;) {</text><rect id="story-source-hl-6" x="559" y="323" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="338" font-size="10.5" fill="#94a3b8">107</text><text x="564" y="338" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">        return `${context.helperString(UNREF)}(${raw})`</text><rect id="story-source-hl-7" x="559" y="345" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="360" font-size="10.5" fill="#94a3b8">108</text><text x="564" y="360" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      } else if (type === &#39;component-import&#39;) {</text><text x="530" y="382" font-size="10.5" fill="#94a3b8">109</text><text x="564" y="382" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">        return raw</text><text x="530" y="404" font-size="10.5" fill="#94a3b8">113</text><text x="564" y="404" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    return `${type ? `$${type}` : `_ctx`}.${raw}`</text><text x="530" y="426" font-size="10.5" fill="#94a3b8">114</text><text x="564" y="426" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  }</text></g></g><g data-story-layer="captions"><g id="story-caption-0" class="story-caption" style="opacity:1"><line x1="30" x2="30" y1="29" y2="96" stroke="#34d399" stroke-width="2"/><rect x="44" y="33" width="24" height="18" rx="5" fill="#334155" fill-opacity="0.7"/><text x="56" y="45.5" font-size="10.5" font-weight="650" fill="#ffffff" text-anchor="middle">01</text><text x="78" y="49" font-size="20" fill="#ffffff" font-weight="650" class="caption-title">编译器数据流：bindingMetadata 决定产物分叉路径</text><text x="44" y="79" font-size="14.5" fill="#94a3b8" class="caption-body">在编译期读取 script setup 绑定元数据，inline 模式直接解包 unref() 或保留组件导入，普通模式维持后缀访问。</text><text x="930" y="30" font-size="10" font-weight="600" fill="#94a3b8" text-anchor="end">Complexity · #2532</text><rect x="898" y="42" width="13" height="3" rx="1.5" fill="#34d399"/><rect x="917" y="42" width="13" height="3" rx="1.5" fill="#334155"/></g><g id="story-caption-1" class="story-caption" style="opacity:0"><line x1="30" x2="30" y1="29" y2="96" stroke="#34d399" stroke-width="2"/><rect x="44" y="33" width="24" height="18" rx="5" fill="#334155" fill-opacity="0.7"/><text x="56" y="45.5" font-size="10.5" font-weight="650" fill="#ffffff" text-anchor="middle">02</text><text x="78" y="49" font-size="20" fill="#ffffff" font-weight="650" class="caption-title">外层圈复杂度看似 22 → 22，嵌套 prefix() 实际从 2 升至 6</text><text x="44" y="79" font-size="14.5" fill="#94a3b8" class="caption-body">若只看外层函数或文件均值会漏掉分支膨胀；组件级指标精确附着到 prefix(raw) 并联动真实源码行高亮分支条件。</text><text x="930" y="30" font-size="10" font-weight="600" fill="#94a3b8" text-anchor="end">Complexity · #2532</text><rect x="898" y="42" width="13" height="3" rx="1.5" fill="#34d399"/><rect x="917" y="42" width="13" height="3" rx="1.5" fill="#34d399"/></g></g><metadata id="archify-software-notices">NOTICE
+        <text x="315" y="159" font-size="10" fill="#ffffff" font-weight="600" data-node-label="" id="story-shared-label-process_exp" text-anchor="middle" style="opacity:0">processExpression</text><text x="315" y="172.4" font-size="7" fill="#94a3b8" font-weight="400" id="story-shared-sub-process_exp" text-anchor="middle" style="opacity:0">cc 22 → 22 (不变)</text><g data-native-key="native-dark-expr"><g id="story-shared-badge-process_exp" transform="translate(259 128) scale(0.50909) translate(-40 -120)" style="opacity:0"><g data-story-node-badge="" data-story-callout="neutral" pointer-events="none"><rect x="194" y="111" width="60" height="18" rx="6" fill="#020617" stroke="none"/><rect x="194" y="111" width="60" height="18" rx="6" fill="#94a3b8" fill-opacity="0.14" stroke="#94a3b8" stroke-width="1"/><text x="224" y="123.5" fill="#94a3b8" font-size="10.5" font-weight="600" text-anchor="middle">cc 22→22</text></g></g></g></g></g></g><g id="story-source-detail" class="story-source-detail" style="opacity:0"><line x1="506" x2="506" y1="125" y2="528" stroke="#334155" stroke-width="1"/><text x="530" y="144" font-size="15" fill="#ffffff" font-weight="600">transformExpression.ts · prefix()</text><text x="530" y="169" font-size="11.5" fill="#94a3b8">nested prefix() 复杂度 2→6，最大嵌套 0→2</text><text x="530" y="206" font-size="10.5" fill="#94a3b8">101</text><text x="564" y="206" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  const { inline, bindingMetadata } = context</text><text x="530" y="228" font-size="10.5" fill="#94a3b8">102</text><text x="564" y="228" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  const prefix = (raw: string) =&gt; {</text><text x="530" y="250" font-size="10.5" fill="#94a3b8">103</text><text x="564" y="250" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    const type = hasOwn(bindingMetadata, raw) &amp;&amp; </text><text x="564" y="272" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      bindingMetadata[raw]</text><rect id="story-source-hl-4" x="559" y="279" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="294" font-size="10.5" fill="#94a3b8">104</text><text x="564" y="294" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    if (inline) {</text><rect id="story-source-hl-5" x="559" y="301" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="316" font-size="10.5" fill="#94a3b8">106</text><text x="564" y="316" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      if (type === &#39;setup&#39;) {</text><rect id="story-source-hl-6" x="559" y="323" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="338" font-size="10.5" fill="#94a3b8">107</text><text x="564" y="338" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">        return `${context.helperString(UNREF)}(${raw})`</text><rect id="story-source-hl-7" x="559" y="345" width="367" height="22" fill="#34d399" fill-opacity="0.1" style="opacity:1"/><text x="530" y="360" font-size="10.5" fill="#94a3b8">108</text><text x="564" y="360" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">      } else if (type === &#39;component-import&#39;) {</text><text x="530" y="382" font-size="10.5" fill="#94a3b8">109</text><text x="564" y="382" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">        return raw</text><text x="530" y="404" font-size="10.5" fill="#94a3b8">113</text><text x="564" y="404" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">    return `${type ? `$${type}` : `_ctx`}.${raw}`</text><text x="530" y="426" font-size="10.5" fill="#94a3b8">114</text><text x="564" y="426" font-size="10.2" fill="#ffffff" xml:space="preserve" style="font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', 'Noto Sans Mono CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;white-space:pre">  }</text></g></g><g data-story-layer="captions"><g id="story-caption-0" class="story-caption" style="opacity:1"><line x1="30" x2="30" y1="29" y2="96" stroke="#34d399" stroke-width="2"/><rect x="44" y="33" width="24" height="18" rx="5" fill="#334155" fill-opacity="0.7"/><text x="56" y="45.5" font-size="10.5" font-weight="650" fill="#ffffff" text-anchor="middle">01</text><text x="78" y="49" font-size="20" fill="#ffffff" font-weight="650" class="caption-title">编译器数据流：bindingMetadata 决定产物分叉路径</text><text x="44" y="79" font-size="14.5" fill="#94a3b8" class="caption-body">在编译期读取 script setup 绑定元数据，inline 模式直接解包 unref() 或保留组件导入，普通模式维持后缀访问。</text><text x="930" y="30" font-size="10" font-weight="600" fill="#94a3b8" text-anchor="end">Complexity · #2532</text><rect x="898" y="42" width="13" height="3" rx="1.5" fill="#34d399"/><rect x="917" y="42" width="13" height="3" rx="1.5" fill="#334155"/></g><g id="story-caption-1" class="story-caption" style="opacity:0"><line x1="30" x2="30" y1="29" y2="96" stroke="#34d399" stroke-width="2"/><rect x="44" y="33" width="24" height="18" rx="5" fill="#334155" fill-opacity="0.7"/><text x="56" y="45.5" font-size="10.5" font-weight="650" fill="#ffffff" text-anchor="middle">02</text><text x="78" y="49" font-size="20" fill="#ffffff" font-weight="650" class="caption-title">外层圈复杂度看似 22 → 22，嵌套 prefix() 实际从 2 升至 6</text><text x="44" y="79" font-size="14.5" fill="#94a3b8" class="caption-body">若只看外层函数或文件均值会漏掉分支膨胀；组件级指标精确附着到 prefix(raw) 并联动真实源码行高亮分支条件。</text><text x="930" y="30" font-size="10" font-weight="600" fill="#94a3b8" text-anchor="end">Complexity · #2532</text><rect x="898" y="42" width="13" height="3" rx="1.5" fill="#34d399"/><rect x="917" y="42" width="13" height="3" rx="1.5" fill="#34d399"/></g></g><metadata id="archify-software-notices">NOTICE
 Archify
 Copyright (c) 2026 tt-a1i (Archify)
 Copyright (c) 2025 Cocoon AI

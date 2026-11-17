@@ -2,7 +2,7 @@
   "schema_version": 1,
   "diagram_type": "erd",
   "meta": {
-    "title": "Pulse Org Billing & Ledger Schema",
+    "title": "Pulse Organization Invoice Schema",
     "output": "pulse-ledger.html",
     "quality_profile": "showcase"
   },
@@ -13,36 +13,61 @@
       "row": 0,
       "col": 0,
       "attributes": [
-        { "name": "id", "type": "uuid", "key": "pk" },
-        { "name": "plan_tier", "type": "text" }
+        {
+          "name": "id",
+          "type": "uuid",
+          "key": "pk"
+        },
+        {
+          "name": "slug",
+          "type": "text"
+        },
+        {
+          "name": "stripe_account_id",
+          "type": "text"
+        }
       ]
     },
     {
-      "id": "checkout_jobs",
-      "label": "checkout_jobs",
+      "id": "invoices",
+      "label": "invoices",
       "row": 0,
       "col": 1,
       "attributes": [
-        { "name": "id", "type": "uuid", "key": "pk" },
-        { "name": "org_id", "type": "uuid", "key": "fk", "references": "orgs.id" },
-        { "name": "idempotency_key", "type": "text" },
-        { "name": "status", "type": "text" }
-      ]
-    },
-    {
-      "id": "org_ledger",
-      "label": "org_ledger_entries",
-      "row": 0,
-      "col": 2,
-      "attributes": [
-        { "name": "id", "type": "uuid", "key": "pk" },
-        { "name": "job_id", "type": "uuid", "key": "fk", "references": "checkout_jobs.id" },
-        { "name": "amount_cents", "type": "integer" }
+        {
+          "name": "id",
+          "type": "uuid",
+          "key": "pk"
+        },
+        {
+          "name": "org_id",
+          "type": "uuid",
+          "key": "fk",
+          "references": "orgs.id"
+        },
+        {
+          "name": "idempotency_key",
+          "type": "text"
+        },
+        {
+          "name": "amount_cents",
+          "type": "bigint"
+        },
+        {
+          "name": "status",
+          "type": "text"
+        }
       ]
     }
   ],
   "relationships": [
-    { "id": "r_org_jobs", "from": "orgs", "to": "checkout_jobs", "fromCardinality": "one", "toCardinality": "many", "label": "owns" },
-    { "id": "r_job_ledger", "from": "checkout_jobs", "to": "org_ledger", "fromCardinality": "one", "toCardinality": "many", "label": "settles" }
+    {
+      "id": "r_org_invoices",
+      "from": "orgs",
+      "to": "invoices",
+      "fromCardinality": "one",
+      "toCardinality": "many",
+      "label": "invoices.org_id"
+    }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-11-17T14:39:51.635Z",
+  "generatedAt": "2026-11-17T16:22:32.920Z",
+  "engineRevision": "0a928733a0062db602a1a1ec02253b3a1fa2a061",
   "cases": [
     {
       "id": "arc-story-split",
@@ -20,7 +21,9 @@
       "stage": "stages/arc-story-split.stage.html",
       "video": {
         "path": "videos/arc-story-split.mp4",
-        "bytes": 4497268
+        "bytes": 4590347,
+        "engineRevision": "0a928733a0062db602a1a1ec02253b3a1fa2a061",
+        "sha256": "c0721e5c0ebfb4aad7e289b897f0c22143dc823abb7bf3c4cff5431d582ae42b"
       }
     },
     {
@@ -44,7 +47,9 @@
       "stage": "stages/pulse-billing.stage.html",
       "video": {
         "path": "videos/pulse-billing.mp4",
-        "bytes": 5656602
+        "bytes": 6040940,
+        "engineRevision": "f1b25dc0670a7b569dd35fff451a626a9f072b0b",
+        "sha256": "d4f4fc14e5492e6626e42998b5162d4bf10e20dcf3c8f35d6e793216587c3c11"
       }
     },
     {
@@ -64,7 +69,9 @@
       "stage": "stages/tokio-scheduler.stage.html",
       "video": {
         "path": "videos/tokio-scheduler.mp4",
-        "bytes": 1721591
+        "bytes": 1721591,
+        "engineRevision": "f1b25dc0670a7b569dd35fff451a626a9f072b0b",
+        "sha256": "d90837ab2c90f13bd2f4481823f6513b5427d37a8b6a6fcfd77128432f411e90"
       }
     },
     {
@@ -84,7 +91,9 @@
       "stage": "stages/vue-complexity.stage.html",
       "video": {
         "path": "videos/vue-complexity.mp4",
-        "bytes": 2844705
+        "bytes": 2846514,
+        "engineRevision": "f1b25dc0670a7b569dd35fff451a626a9f072b0b",
+        "sha256": "fe8899a978e751c74e10b09279ac6a7bde98cf1632e37ea80efc151687411e24"
       }
     }
   ]

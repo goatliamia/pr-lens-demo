@@ -1,42 +1,46 @@
-# AI 时代的 PR 审查：从“逐行看 Diff”到“三问理解架构”
+# AI 时代的 PR 讲解：意图、架构与复杂度
 
-> 本文梳理近期工程界关于 AI 时代代码审查的核心共识，并解释为什么 **可交互/可验证的组件级动态图解** 比长篇文字总结或逐行 diff 更能缓解审阅瓶颈。
+代码生成加快之后，审阅者仍需要理解变更的目的、结构和代价。本展示尝试用三个问题组织阅读，再用源码与测试复核图中的说法。图解负责导航，审查结论仍由代码证据、测试和维护者判断共同支撑。
 
-## 一、绿灯 CI 为什么不再等于“可以合并”？
+## 思路来源与适用范围
 
-过去，静态检查通过、单测全绿、diff 风格整洁通常意味着“低风险 PR”。在编码 Agent 普及的 2026 年，三位资深工程师与学者几乎同时指出了同一个反转信号：
+- Margaret-Anne Storey 在 [Cognitive Debt Revisited](https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/) 中讨论系统结构演化与团队共同理解之间的缺口。
+- Armin Ronacher 在 [The Final Bottleneck](https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/) 中讨论代码产出、审查能力与责任之间的约束。
+- Mitchell Hashimoto 在 [My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey#step-5-engineer-the-harness) 中建议把反复纠错的经验沉淀进工具和文档。
 
-| 提出者 | 核心论断（2026） | 对 PR 审查的直接含义 |
-| --- | --- | --- |
-| **Margaret-Anne Storey**（维多利亚大学，*Cognitive & Intent Debt*，获 Martin Fowler 与 Simon Willison 专题引述） | 提出 **三重债务模型**：代码里的 *Technical Debt* 之外，更致命的是人脑中共识流失的 ***Cognitive Debt（认知债）*** 与制品中理由缺失的 ***Intent Debt（意图债）***。团队在第 7–8 周集体“撞墙”，往往不是因为语法混乱，而是没人再理解跨模块因果。 | 审查不仅要看“这段代码对不对”，更要显式确认“**为什么改、保留了什么契约、改变了哪个不变量**”。 |
-| **Armin Ronacher**（*The Final Bottleneck*, *Agent Psychosis*） | 当代码生成边际成本趋近于零时，**人类对变更的阅读与理解能力（Comprehension）成为软件工程的最终瓶颈**。几分钟生成上千行洁净 PR，会反过来耗尽维护者的认知预算。 | PR 描述如果只靠长文摘要或“AI 生成了哪些文件”列表，无法降低理解成本；必须按结构主线压缩认知路径。 |
-| **Mitchell Hashimoto**（Ghostty *Engineering the Harness*） & **Birgitta Böckeler / Martin Fowler** | Agent 擅长在局部修绿测试，却缺乏全局心智模型，容易在看似合理的修改中引入 **复杂度偏置（complexity bias）** 与 **架构漂移（architectural drift）**；“逐行扫 800 行 diff”正在沦为无效的 **review theater（审阅表演）**。 | 团队需要 **Comprehension-First Harness**：强制让 PR 用结构证据回答关键问题，而不是靠审阅者肉眼硬扛。 |
+下文的“三问”是本展示采用的组织方法，这些文章为设计提供了启发。
 
-## 二、AI 时代审查一个 PR，真正该盯紧哪三个问题？
+## 1. 意图：为什么改，哪些对外契约跟着改变？
 
-与其平均分配注意力给每一行缩进与命名，不如把 AI 生成（或大幅重构）的 PR 强制拆成三面镜子（**PR 三问**）：
+先写清预期效果，再确认 HTTP/RPC 返回语义、同步或异步时机、重试、幂等和持久化保证。
 
-### 1. 目的是什么：意图与边界契约是否发生漂移？
-- 关注点：对外 HTTP/RPC 返回语义、同步转异步、重试与幂等保证、数据库写路径与持久化状态不变量。
-- 常见 AI 陷阱：PR 标题写“性能优化”，实际悄悄把同步强一致响应（`200 Paid`）改成了异步排队（`202 Queued`），调用方与前端尚未感知。
-- 展示案例：**Pulse Billing PR #5**（`architecture → sequence → erd` 三段转场 + 真实路由代码 `if (!lock.acquired) return { status: 202 ... }`）。
+Pulse Billing [PR #5](https://github.com/tt-a1i/pr-lens-demo/pull/5) 从等待扣款与发信后返回 `200`，改为领取幂等锁并调用入队接口后返回 `202 queued`。架构图交代同步基线，时序图解释调用顺序，代码片段核对返回值，ERD 展示 `invoices.org_id` 与幂等键唯一索引。
 
-### 2. 对我的项目架构造成了什么影响：依赖方向、所有权与解耦边界如何演变？
-- 关注点：模块之间是否引入了隐式双向耦合、公共组件是否被特殊场景污染、队列/锁的所有权落在谁身上、未来能否独立替换或删除。
-- 常见 AI 陷阱：百文件大重构里到处都是局部合理的适配层，合在一起却把业务领域逻辑焊死在通用基础库里。
-- 展示案例：
-  - **Tokio #1657**（百文件改动浓缩为“有界环形队列替换 + 半批溢出 + Worker Searching/Parked 状态机”）。
-  - **Archify Line A 通用引擎拆分**（自举示例：明确把 `archify/story/` 通用组件编排引擎与下游 PR 场景经验彻底解耦，保持核心 **0 PR 领域耦合**）。
+边界同样需要展示：这个 demo 的 `enqueueCheckoutJob()` 只返回示例 `jobId`，没有实际队列；Worker 函数存在，但尚未证明端到端持久化执行。`db/schema.sql` 的状态默认值为 `queued`，迁移脚本未同步修改该默认值，仍需单独核对。不能从连线动画推导这些运行时保证。
 
-### 3. 加重了什么复杂度：外层指标平滑下，局部控制流与失效路径是否膨胀？
-- 关注点：圈复杂度（Cyclomatic Complexity）、最大嵌套深度、新增条件分支是否藏在匿名闭包或嵌套辅助函数里，以及异常回滚路径数量。
-- 常见 AI 陷阱：外层入口函数签名和总复杂度看似零变化（甚至被工具误判“无复杂度增长”），真正的分支判断全塞进了嵌套子函数。
-- 展示案例：**Vue #2532**（外层 `processExpression` 保持 `22 → 22`，而嵌套 `prefix(raw)` 从 `2 → 6`、最大嵌套 `0 → 2`，并将指标直接锚定到组件节点与真实源码行）。
+## 2. 架构：依赖、所有权和执行路径如何变化？
 
-## 三、为什么用 Archify 通用组件编排引擎来承载？
+围绕发生变化的模块，说明新增依赖、责任迁移、共享状态和故障边界，并保留未改变但受影响的相邻对象。
 
-在本仓库的工程实践中，**架构规律本身不绑定任何特定业务词汇**：只要把原生图表（架构、时序、数据流、生命周期、ERD 等 10 种结构）视为可解析、可跨视图复用身份的组件舞台（`archify/story/component-stage.mjs` + `choreography-plan.mjs`），上面三类审查证据就能直接复用一套纯通用引擎产出：
+- Tokio [#1657](https://github.com/tokio-rs/tokio/pull/1657) 用架构图讲局部队列、溢出和批量窃取，再用生命周期图讲 Worker 状态。这里选择了调度器这一条主线，未覆盖该 PR 的全部变化。
+- Archify 自举案例用架构图说明通用编排与领域经验的边界，再用数据流图说明 SVG 和视频的输出路径。GPU 回读属于视频导出管线，MP4 索引与封装属于 `StoryContainer`，两者分别承担责任。
 
-1. **GitHub PR 内嵌双主题动态 SVG（`<picture>` 自适应明暗）**：零脚本依赖，Camo 沙箱安全；支持 `prefers-reduced-motion` 自动静止到终态。
-2. **离线交互舞台 Stage HTML**：可暂停、拖拽进度条、跳转分镜步骤、实时导出单帧 PNG，并支持 1080p MP4 / WebM 流式导出。
-3. **CLI 直出 1080p MP4 视频（`archify story video`）**：直接嵌入汇报、评审录制或异步分享，通过 `StoryContainer` 与 4 帧批量 GPU 回读避免导出卡顿与内存溢出。
+图结构按问题选。跨图保留稳定对象身份，在一个画布内顺序推进；代码片段在需要核对时出现。动态图的“选中”是预编排的演示动作，PR 评论中的图片不接收交互点击。
+
+## 3. 复杂度：变化发生在哪一层？
+
+区分函数本身、嵌套函数和模块关系。报告前后数值、度量口径和对应代码，不把复杂度增加直接等同于缺陷。
+
+Vue [#2532](https://github.com/vuejs/core/pull/2532) 复用此前固定版本的[静态度量快照](measurements/vue.json)：外层 `processExpression()` 为 `22 → 22`，嵌套的 `prefix()` 为 `2 → 6`，嵌套深度为 `0 → 2`。本例将指标附着于函数对象，随后展示对应源码。
+
+这些数值由调用方提供，通用 Story 引擎负责渲染，未自动推导该 PR 的复杂度结论。固定版本见 [source-revisions.json](source-revisions.json)；没有重新扫描当前 Vue 主线。
+
+## 交付形式与职责边界
+
+PRLens 的产品形态可拆为评论内图像、外部交互网站和自动生成/发布工作流。本次聚焦第一种，并复用 Arc 的离线交互与视频导出能力：
+
+1. PR 评论展示单张双主题动态 SVG，讲解文字放在图内，支持减少动态效果；静态关键帧供展开阅读。
+2. 交互 Stage HTML 可下载后离线打开，支持暂停、跳步骤和查看导出效果；GitHub 的文件预览不会执行 HTML。
+3. MP4 用于演示和分享；生成脚本可选输出视频。
+
+本次没有部署网站、GitHub App 或自动发布 Action。已有 CLI、图结构和动效是通用组件；PR 的关注点、选图、讲解与分析输入留在本展示目录，后续可提炼成领域 Skill。
