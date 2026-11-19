@@ -73,8 +73,8 @@
     {
       "view": "async_flow",
       "duration": 5.5,
-      "title": "契约迁移：幂等锁校验后投递队列，立即返回 202 Queued",
-      "body": "路由领取幂等锁后返回 202 和 jobId；独立 Worker 展示扣款调用。当前入队函数仅返回示例 ID，尚未接入实际队列。",
+      "title": "契约迁移：首次与重复请求都返回 202 Queued",
+      "body": "首次入队返回 invoiceId 和 jobId。重复请求复用已有 invoiceId。入队函数目前只返回示例 ID。",
       "transition": {
         "from": "sync",
         "shared": [
@@ -103,7 +103,7 @@
       "view": "async_flow",
       "duration": 5.5,
       "title": "源码印证：锁占用或入队成功均返回 202 Queued",
-      "body": "左侧聚焦路由、幂等锁与异步队列三方协作，右侧对照 postCheckout() 真实返回结构。",
+      "body": "锁已占用时跳过入队并返回已有 invoiceId。首次请求调用入队函数，响应额外包含 jobId。",
       "focus": {
         "nodes": [
           "checkout_api",

@@ -8,7 +8,7 @@
 
 | 审查维度（PR 三问） | 展示案例 | 原生图谱组合 | 揭示的关键信号 | 产物入口 |
 | --- | --- | --- | --- | --- |
-| **1. 目的是什么**<br>意图与契约偏移 | **Pulse Billing PR #5** | `architecture → sequence → erd` | `200` 改为 `202 queued`；`invoices` 转为组织归属；入队接口仍为示例桩 | [Stage](stages/pulse-billing.stage.html) · [1080p MP4](videos/pulse-billing.mp4) |
+| **1. 目的是什么**<br>意图与契约偏移 | **Pulse Billing PR #5** | `architecture → sequence → erd` | 首次请求返回 `202`、`invoiceId` 和 `jobId`，重复请求返回 `202` 和已有 `invoiceId`。账单改按组织归属，入队接口仍为示例桩 | [Stage](stages/pulse-billing.stage.html) · [1080p MP4](videos/pulse-billing.mp4) |
 | **2. 架构影响了什么**<br>所有权与并发状态 | **Tokio #1657** | `architecture → lifecycle` | 100 文件调度器重写收敛为有界环形队列 + 溢出窃取 + Worker 状态迁移 | [Stage](stages/tokio-scheduler.stage.html) · [1080p MP4](videos/tokio-scheduler.mp4) |
 | **2. 架构影响了什么**<br>通用引擎解耦（自举） | **Archify Line A 拆分** | `architecture → dataflow` | 通用 AST 编排引擎与领域 Skill 解耦，`StoryContainer` 支持 fast-start MP4 与 4 帧批量回读 | [Stage](stages/arc-story-split.stage.html) · [1080p MP4](videos/arc-story-split.mp4) |
 | **3. 复杂度发生在哪一层**<br>局部指标变化 | **Vue #2532** | `dataflow → architecture` | 固定版本度量：外层 `22 → 22`、嵌套 `prefix()` 为 `2 → 6`（源码行级定位） | [Stage](stages/vue-complexity.stage.html) · [1080p MP4](videos/vue-complexity.mp4) |

@@ -47,10 +47,11 @@
       "stage": "stages/pulse-billing.stage.html",
       "video": {
         "path": "videos/pulse-billing.mp4",
-        "bytes": 6040940,
-        "engineRevision": "f1b25dc0670a7b569dd35fff451a626a9f072b0b",
-        "sha256": "d4f4fc14e5492e6626e42998b5162d4bf10e20dcf3c8f35d6e793216587c3c11"
-      }
+        "bytes": 6029027,
+        "engineRevision": "fd04805905e28f6779890eb4d8773183e620ca10",
+        "sha256": "8d318e9588bea325809aee286bf0586bb79325084088a12f28f2b7b2b076dad2"
+      },
+      "engineRevision": "fd04805905e28f6779890eb4d8773183e620ca10"
     },
     {
       "id": "tokio-scheduler",
